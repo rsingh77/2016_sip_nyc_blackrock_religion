@@ -1,0 +1,93 @@
+h1.style{
+    text-align: center;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    color: rgb(11,39,95);
+}
+button{
+    margin-left: 100px;
+}
+button.h{
+    background-color: rgb(255, 69, 0); /* black */
+    border-radius: 25px;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+    button.h:hover{
+        background-color: rgb(255, 153, 51);
+        color: white;
+        box-shadow: 1px 10px 5px rgb(226, 222, 222);
+    }
+button.c{
+    background-color: rgb(152, 32, 170); /* purple */
+    border-radius: 25px;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+    button.c:hover{
+        background-color: rgb(184, 40, 206);
+        color: white;
+        box-shadow: 1px 10px 5px rgb(226, 222, 222);
+    }
+button.j{
+    background-color: rgb(15, 137, 172); /* blue */
+    border-radius: 25px;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+    button.j:hover{
+        background-color: rgb(0, 153, 255);
+        color: white;
+        box-shadow: 1px 10px 5px rgb(226, 222, 222);
+    }
+button.i{
+    background-color: rgb(20, 142, 44); /* green */
+    border-radius: 25px;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+    button.i:hover{
+        background-color: rgb(20, 193, 54);
+        color: white;
+        box-shadow: 1px 10px 5px rgb(226, 222, 222);
+    }
+button.b{
+    background-color: rgb(252, 227, 3); /* yellow */
+    border-radius: 25px;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+    button.b:hover{
+        background-color: rgb(248, 243, 105);
+        text:black;
+        box-shadow: 1px 10px 5px rgb(226, 222, 222);
+    }
+    
+.mapstyle{
+    margin-left: 175px;
+    margin-top: 30px;
+}
