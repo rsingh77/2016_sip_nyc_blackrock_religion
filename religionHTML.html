@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>WEBSITE NAME</title>
+    <link rel="stylesheet" href="jquery-jvectormap-2.0.3.css" type="text/css" media="screen"/>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+      <script src="jquery-jvectormap-2.0.3.min.js"></script>
+      <script src="jquery-jvectormap-world-mill.js"></script>
+      
+    <link rel="stylesheet" type="text/css" href="religionCSS.css">
+    <link rel="stylesheet" type="text/css" href="locationstat.css">
+
+    </head>
+  <body>
+    <h1 class="style">RELIGIONS</h1>
+    <div>
+    <button class="c hover">CHRISTIANITY</button>
+    <button class="i">ISLAM</button>
+    <button class="j">JUDAISM</button>
+    <button class="b">BUDDHISM</button>
+    <button class="h">HINDUISM</button>
+    </div>
+    
+    <div class = "mapstyle" id="world-map" style="width: 1000px; height: 600px"></div>
+    <script>
+        $(function(){
+          $('#world-map').vectorMap({map: 'world_mill'});
+        });
+    </script>
+    
+  </body>
+</html>
