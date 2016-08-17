@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>WEBSITE NAME</title>
+    <title>RELIGIONS</title>
     <link rel="stylesheet" href="jquery-jvectormap-2.0.3.css" type="text/css" media="screen"/>
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
       <script src="jquery-jvectormap-2.0.3.min.js"></script>
@@ -11,17 +11,25 @@
     <link rel="stylesheet" type="text/css" href="locationstat.css">
 
     </head>
-  <body>
-    <h1 class="style">RELIGIONS</h1>
+  <body class="backgroundpic">
     <div>
-    <button class="c hover">CHRISTIANITY</button>
-    <button class="i">ISLAM</button>
-    <button class="j">JUDAISM</button>
-    <button class="b">BUDDHISM</button>
-    <button class="h">HINDUISM</button>
+        <button class="home">HOME</button>
+        <a href = "about.html"><button class="about"> ABOUT US</button></a>
+        <a href = "whymatter.html"><button class="why">WHY RELIGION MATTERS</button></a>
+      <h1 class="style">RELIGIONS</h1>
     </div>
     
+    <div>
+        <a href = "christianity.html"><button class="c">CHRISTIANITY</button></a>
+        <a href = "islam.html"><button class="i">ISLAM</button></a>
+        <a href = "judaism.html"><button class="j">JUDAISM</button></a>
+        <a href = "buddhism.html"><button class="b">BUDDHISM</button></a>
+        <a href = "hinduism.html"><button class="h">HINDUISM</button></a>
+    </div>
+    
+    
     <div class = "mapstyle" id="world-map" style="width: 1000px; height: 600px"></div>
+    
     <script>
         $(function(){
           $('#world-map').vectorMap({map: 'world_mill'});
