@@ -1,50 +1,68 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <h1>Christianity</h1>
+    <link rel="stylesheet" type="text/css" href="religionCSS.css">
+    
+    <script>
+    /* Open when someone clicks on the span element */
+    function openNav() {
+        document.getElementById("myNav").style.width = "100%";
+    }
+
+    /* Close when someone clicks on the "x" symbol inside the overlay */
+    function closeNav() {
+        document.getElementById("myNav").style.width = "0%";
+    } 
+    </script>
+
+    </head>
+        <div>
+            <a href = "religionHTML.html"><button class="home">HOME</button>
+            <a href = "about.html"><button class="about"> ABOUT US</button></a>
+            <a href = "whymatter.html"><button class="why">WHY RELIGION MATTERS</button></a>
+        </div>
+        
+        <h1 class="heading">CHRISTIANITY</h1>
         <body>
-        <h2>General</h2>
-        <p>
-        <ul>
-        <li>Similar beliefs as Judaism - the coming of Messiah and the belief in one God</li>
-        <li>Jesus of Nazareth was born Jewish</li>
-        <li>He preached a moral code of love, charity, and humility</li>
-        <li>Put to death in AD 30: he was seen as an agitator to rich people and to the government</li>
-        <li>Resurrected on the 3rd day after his death</li>
-        <li>This made him known as the Son of God and this  belief helped spread religion throughout the Roman Empire and in Jewish communities in the Middle East</li>
-        <li>By 4th century AD 10% the of Roman Empire was a convert of Christianity</li>
-        <li>Slave, dispossessed farmers, and impoverished city dwellers found hope in this religion</li>
-        <li>Different denominations include Catholic Christians, Methodists, Presbyterian, Southern Baptists, and Lutheran</li>
-        <li>The Ten Commandments are the obligations Christians must fulfill in order to get into heaven and receive eternal life</li>
-        <li>Prayer is the act of communicating with God</li>
-        <li>The Bible is a compilation of 66 books and letters written by more than 40 authors during a period of approximately 1,500 years</li>
-        </ul>
+        <!-- nav bar-->
+        <div id="myNav" class="overlay">
+
+          <!-- Button to close the overlay navigation -->
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+          <!-- Overlay content -->
+          <div class="overlay-content">
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Clients</a>
+            <a href="#">Contact</a>
+          </div>
+
+        </div>
+
+<!-- Use any element to open/show the overlay navigation menu -->
+<span onclick="openNav()">&#9776;</span>
+        <p class="parag1">
+        Similar beliefs to Judaism - coming of Messiah
+        Appeal to poor people
+        Jesus of Nazareth was born Jewish - he preached in Israel: a moral code of love, charity, and humility
+        Put to death in AD 30: he was seen as an agitator to rich people and to the government
+        Resurrected on the 3rd day
+        This made him known as the Son of God: belief helped spread religion throughout the Roman Empire and in Jewish communities in the Middle East
+        By 4th century AD 10% of Roman Empire was a convert
+        Slave, dispossessed farmers, and impoverished city dwellers found hope in this religion
+        Different denominations include Catholic Christians, Methodists, Presbyterian, Southern Baptists, and Lutheran
+        The Ten Commandments are the obligations Christians must fulfill in order to get into heaven and receive eternal life
+        Prayer is the act of communicating with God
         </p>
 
-         <p>The basic principles of Christianity are based on the life and teachings of Jesus. Jesus was a Jewish prophet who preached in Israel about purifying Judaism in order to estable the kingdom of God on earth. Christianity is comprise of many branches and subcategories; the three most notable branches are Roman Catholicism, Eastern Orthodoxy, and Protestantism. Currently, Christianity is the most practiced religion worldwide with more than 2.18 billion Christians worldwide.
-
+         <p class="parag1">Christianity emerged during the Roman Empire in the 1st century C.E. 
+         The basic principles of Christianity are based on the life and teachings of Jesus. 
+         Jesus was a Jewish prophet who preached in Israel about purifying Judaism in order to estable the kingdom of God on earth. 
+         Christianity is comprised of many branches and subcategories. 
+         The three most notable branches are Roman Catholicism, Eastern Orthodoxy, and Protestantism.
+         Currently, Christianity is the most practiced religion worldwide with more than 2.18 billion Christians worldwide.
          </p>
-        
-        <h3>FAQs</h3>
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        </body>
-    </head>
+    </body>
 </html>
+    
