@@ -6,12 +6,40 @@
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
       <script src="jquery-jvectormap-2.0.3.min.js"></script>
       <script src="jquery-jvectormap-world-mill.js"></script>
-      
+
     <link rel="stylesheet" type="text/css" href="religionCSS.css">
     <link rel="stylesheet" type="text/css" href="locationstat.css">
 
+    <script>
+    /* Open when someone clicks on the span element */
+    function openNav() {
+        document.getElementById("myNav").style.width = "100%";
+    }
+
+    /* Close when someone clicks on the "x" symbol inside the overlay */
+    function closeNav() {
+        document.getElementById("myNav").style.width = "0%";
+    }
+    </script>
+
     </head>
-  <body class="backgroundpic">
+  <body>
+    <!-- nav bar-->
+    <div id="myNav" class="overlay">
+      <!-- Button to close the overlay navigation -->
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <!-- Overlay content -->
+      <div class="overlay-content">
+        <a href="christianity.html">CHRISTIANITY</a>
+        <a href="#">HINDUISM</a>
+        <a href=buddhism.html">BUDDHISM</a>
+        <a href="#">ISLAM</a>
+        <a href="#">JUDAISM</a>
+      </div>
+    </div>
+  <!-- Use any element to open/show the overlay navigation menu -->
+  <span onclick="openNav()">&#9776;</span>
+
     <div>
 
         <button class="home">HOME</button>
@@ -19,20 +47,21 @@
         <a href = "whymatter.html"><button class="why">WHY RELIGION MATTERS</button></a>
       <h1 class="style">RELIGIONS</h1>
 
+      <!--
       <a href = "christianity.html"><button class="c">CHRISTIANITY</button></a>
       <a href = "islam.html"><button class="i">ISLAM</button></a>
       <a href = "judaism.html"><button class="j">JUDAISM</button></a>
       <a href = "buddhism.html"><button class="b">BUDDHISM</button></a>
-      <a href = "hinduism.html"><button class="h">HINDUISM</button></a>
-  
-    
-    <div class = "mapstyle" id="world-map" style="width: 1000px; height: 600px"></div>
-    
+      <a href = "hinduism.html"><button class="h">HINDUISM</button></a> */ -->
+
+
+    <div class = "mapstyle" id="world-map" style="width: 1150px; height: 700px"></div>
+
     <script>
         $(function(){
           $('#world-map').vectorMap({map: 'world_mill'});
         });
     </script>
-    
+
   </body>
 </html>
