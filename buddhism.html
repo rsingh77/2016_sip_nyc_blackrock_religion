@@ -1,21 +1,104 @@
-<!DOCTYPE html>
-<html>
-    <head>
-    <link rel="stylesheet" type="text/css" href="religionCSS.css">
-    </head>
-        <div>
-            <a href = "religionHTML.html"><button class="home">HOME</button></a>
-            <a href = "about.html"><button class="about"> ABOUT US</button></a>
-            <a href = "whymatter.html"><button class="why">WHY RELIGION MATTERS</button></a>
-        </div>
-        
-        <h1 class="heading">BUDDHISM</h1>
-        <body>
-            <p class="parag1">Buddhism is a religion/dharma based on the teachings of Siddhartha Guatama, or Buddha. 
-            The religion teaches various traditions, beliefs, and practices pertaining to self-realization and attuning to the will of the universe. 
-            Buddhism originated in India and quickly spread throughout much of Asia, primarily China. 
-            Some major beliefs of Buddhists are the Four Noble Truths, which essentially reaffirms the notion that life is perpetually unsatisfying and should be appreciated in its essence, and the Eightfold Path, a set of edicts that help an individual achieve freedom from the cycle of existential suffering, known as Nirvana.
-            </p>
-        </body>
-    </html>
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link href='http://fonts.googleapis.com/css?family=Roboto:400,700,300' rel='stylesheet' type='text/css'>
+
+	<link rel="stylesheet" href="buddhismreset.css"> <!-- CSS reset -->
+	<link rel="stylesheet" href="buddhismstyle.css"> <!-- Resource style -->
+	<script src="buddhismmodernizr.js"></script> <!-- Modernizr -->
+  	
+	<title>BUDDHISM</title>
     
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+</head>
+<body>
+	<header class="cd-header">
+		<div id="cd-logo"><a href="#0"><img src="img/cd-logo.svg" alt="Logo"></a></div>
+
+	</header>
+
+	<main class="cd-main-content">
+		<div class="cd-fixed-bg cd-bg-1">
+			<h1>BUDDHISM</h1>
+		</div> <!-- cd-fixed-bg -->
+
+		<div class="cd-scrolling-bg cd-color-2">
+			<div class="cd-container">
+				<p>
+                Buddhism is a religion/dharma based on the teachings of Siddhartha Guatama, or “Buddha”. The religion teaches various traditions, beliefs, and practices pertaining to self-realization and attuning to the will of the universe.
+                Buddhism originated in India and quickly spread throughout much of Asia, primarily China. Some major beliefs of Buddhists are the Four Noble Truths, which essentially reaffirms the notion that life is perpetually unsatisfying and should be appreciated in its essence, and the Eightfold Path, a set of edicts that help an individual achieve freedom from the cycle of existential suffering, known as Nirvana.
+				</p>
+			</div> <!-- cd-container -->
+		</div> <!-- cd-scrolling-bg -->
+
+		<div class="cd-fixed-bg cd-bg-2">
+        
+        
+			           <!-- slideshow -->
+            <div class="w3-content" style="max-width:800px;position:relative">
+
+            <img class="mySlides" src="pic1.jpg" style="width:100%">
+            <img class="mySlides" src="pic2.jpg" style="width:100%">
+            <img class="mySlides" src="pic3.jpeg" style="width:100%">
+            <img class="mySlides" src="pic4.jpg" style="width:100%">
+
+            <a class="w3-btn-floating" style="position:absolute;top:45%;left:0" onclick="plusDivs(-1)"></a>
+            <a class="w3-btn-floating" style="position:absolute;top:45%;right:0" onclick="plusDivs(1)"></a>
+
+            </div>
+
+            <script>
+            var slideIndex = 1;
+            showDivs(slideIndex);
+
+            function plusDivs(n) {
+              showDivs(slideIndex += n);
+            }
+
+            function showDivs(n) {
+              var i;
+              var x = document.getElementsByClassName("mySlides");
+              if (n > x.length) {slideIndex = 1}
+              if (n < 1) {slideIndex = x.length}
+              for (i = 0; i < x.length; i++) {
+                 x[i].style.display = "none";
+              }
+              x[slideIndex-1].style.display = "block";
+            }
+            </script>
+            
+            
+		</div> <!-- cd-fixed-bg -->
+
+		<div class="cd-scrolling-bg cd-color-3">
+			<div class="cd-container">
+				<p>
+                idsiudsiuodsiods
+				</p>
+			</div> <!-- cd-container -->
+		</div> <!-- cd-scrolling-bg -->
+
+		<div class="cd-fixed-bg cd-bg-3">
+			<h2>Lorem ipsum dolor sit amet.</h2>
+		</div> <!-- cd-fixed-bg -->
+
+		<div class="cd-scrolling-bg cd-color-1">
+			<div class="cd-container">
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore incidunt suscipit similique, dolor corrupti cumque qui consectetur autem laborum fuga quas ipsam doloribus sequi, mollitia, repellendus sapiente repudiandae labore rerum amet culpa inventore, modi non. Quo nisi veritatis vitae nam, labore fugit. Inventore culpa iusto, officia exercitationem. Voluptates quibusdam odit odio incidunt consequatur, consectetur aspernatur optio vitae molestias, quas repellendus fugit ullam culpa, eligendi et dignissimos voluptatibus illum? Molestias aliquam nostrum quasi ipsa culpa, iusto explicabo ut error, consequuntur enim temporibus, adipisci tempora voluptate, id consequatur mollitia eveniet blanditiis. Illo quod repellendus alias? Cum rem doloremque adipisci accusantium? Saepe, necessitatibus!
+				</p>
+			</div> <!-- cd-container -->
+		</div> <!-- cd-scrolling-bg -->
+
+		<div class="cd-fixed-bg cd-bg-4">
+			<h2>Lorem ipsum dolor sit amet.</h2>
+		</div> <!-- cd-fixed-bg -->
+	</main> <!-- cd-main-content -->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	<script src="buddhismmain.js"></script> <!-- Resource jQuery -->
+</body>
+</html>
