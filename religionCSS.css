@@ -1,10 +1,10 @@
-.backgroundpic{
-    background-image: url("pic3.jpg");
-} 
+body{
+    background-color: rgb(80, 80, 80);
+}
 h1.style{
     text-align: center;
     font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
-    color: rgb(11,39,95);
+    color: white;
     font-size: 40px;
 }
 button{
@@ -90,13 +90,13 @@ button.b{
         color: black;
         box-shadow: 1px 10px 5px rgb(226, 222, 222);
     }
-    
+
 .mapstyle{
-    margin-left: 175px;
-    margin-top: 30px;
+    margin-left: 30px;
+    margin-top: -10px;
 }
 
-.about{  
+.about{
     font-size: 10px;
     padding: 9px 10px;
     border: none;
@@ -144,7 +144,7 @@ ul{
     padding: 0;
     overflow: hidden;
     background-color: white;
-} 
+}
 /* li{
     float: left;
 }
@@ -171,7 +171,7 @@ header{
 
 /* The Overlay (background) */
 .overlay {
-    /* Height & width depends on how you want to reveal the overlay (see JS below) */    
+    /* Height & width depends on how you want to reveal the overlay (see JS below) */
     height: 100%;
     width: 0;
     position: fixed; /* Stay in place */
@@ -216,7 +216,8 @@ header{
     font-size: 60px;
 }
 
-/* When the height of the screen is less than 450 pixels, change the font-size of the links and position the close button again, so they don't overlap */
+/* When the height of the screen is less than 450 pixels, change the font-size
+of the links and position the close button again, so they don't overlap */
 @media screen and (max-height: 450px) {
     .overlay a {font-size: 20px}
     .overlay .closebtn {
