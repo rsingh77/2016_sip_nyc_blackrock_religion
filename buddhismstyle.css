@@ -204,6 +204,8 @@ Main components
   text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
   color: white;
 }
+
+/* background color stuff */
 .cd-fixed-bg.cd-bg-1 {
     background-image: url("pic7.jpg"); 
 }
@@ -261,3 +263,12 @@ Main components
     font-weight: 300;
   }
 }
+/* slide show */
+div.position1{
+    margin-top: 50px;
+    margin-left: 300px;
+    margin-bottom: -100px;
+}
+
+
+
