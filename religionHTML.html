@@ -10,52 +10,55 @@
     <link rel="stylesheet" type="text/css" href="religionCSS.css">
     <link rel="stylesheet" type="text/css" href="locationstat.css">
 
-    <script>
-    /* Open when someone clicks on the span element */
-    function openNav() {
-        document.getElementById("myNav").style.width = "100%";
-    }
+      <script>
+        /* Open when someone clicks on the span element */
+        function openNav() {
+            document.getElementById("myNav").style.width = "100%";
+        }
 
-    /* Close when someone clicks on the "x" symbol inside the overlay */
-    function closeNav() {
-        document.getElementById("myNav").style.width = "0%";
-    }
-    </script>
-
+        /* Close when someone clicks on the "x" symbol inside the overlay */
+        function closeNav() {
+            document.getElementById("myNav").style.width = "0%";
+        }
+      </script>  
+    
     </head>
   <body>
     <!-- nav bar-->
-    <div id="myNav" class="overlay">
-      <!-- Button to close the overlay navigation -->
-      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-      <!-- Overlay content -->
+    <div id="myNav" class="overlay" class="cd-blurred-bg">
+        <!-- Button to close the overlay navigation -->
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <!-- Overlay content -->
+        
       <div class="overlay-content">
-        <a href="christianity.html">CHRISTIANITY</a>
-        <a href="#">HINDUISM</a>
-        <a href=buddhism.html">BUDDHISM</a>
-        <a href="#">ISLAM</a>
-        <a href="#">JUDAISM</a>
+        <a class="c" href="christianity.html">CHRISTIANITY</a>
+        <a class="h" href="#">HINDUISM</a>
+        <a class="b" href="Buddhism/buddhism.html">BUDDHISM</a>
+        <a class="i" href="Islam/islam.html">ISLAM</a>
+        <a class="j" href="#">JUDAISM</a>
       </div>
     </div>
-  <!-- Use any element to open/show the overlay navigation menu -->
-  <span onclick="openNav()">&#9776;</span>
+    
+      <!-- Use any element to open/show the overlay navigation menu -->
+      
 
-    <div>
-
+    <div class="align1">
         <button class="home">HOME</button>
         <a href = "about.html"><button class="about"> ABOUT US</button></a>
         <a href = "whymatter.html"><button class="why">WHY RELIGION MATTERS</button></a>
+    </div>    
+        
       <h1 class="style">RELIGIONS</h1>
 
+      <span class="opennav1" onclick="openNav()">&#9776; MENU</span>
       <!--
       <a href = "christianity.html"><button class="c">CHRISTIANITY</button></a>
       <a href = "islam.html"><button class="i">ISLAM</button></a>
       <a href = "judaism.html"><button class="j">JUDAISM</button></a>
       <a href = "buddhism.html"><button class="b">BUDDHISM</button></a>
       <a href = "hinduism.html"><button class="h">HINDUISM</button></a> */ -->
-
-
-    <div class = "mapstyle" id="world-map" style="width: 1150px; height: 700px"></div>
+      
+    <div class = "mapstyle" id="world-map" style="width: 1200px; height: 700px"></div>
 
     <script>
         $(function(){

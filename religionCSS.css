@@ -10,9 +10,9 @@ h1.style{
 button{
     margin-left: 100px;
 }
-button.h{
-    background-color: rgb(255, 69, 0); /* black */
-    border-radius: 25px;
+a.h{
+    background-color: none; /* black */
+    border-radius: 5px;
     border: none;
     color: white;
     padding: 15px 32px;
@@ -20,30 +20,32 @@ button.h{
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+    margin-bottom:30px;
 }
-    button.h:hover{
-        background-color: rgb(255, 153, 51);
+    a.h:hover{
+        background-color: rgba(255, 69, 0, 0.3);
         color: white;
-        box-shadow: 1px 10px 5px rgb(226, 222, 222);
+        padding: 30px 10px;
     }
-button.c{
-    background-color: rgb(152, 32, 170); /* purple */
+a.c{
+    background-color: none; /* purple */
     border-radius: 25px;
     border: none;
     color: white;
-    padding: 15px 32px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+    margin-bottom:40px;
+    margin-top: -90px;
 }
-    button.c:hover{
-        background-color: rgb(184, 40, 206);
+    a.c:hover{
+        background-color: rgba(152, 32, 170, 0.3);
         color: white;
-        box-shadow: 1px 10px 5px rgb(226, 222, 222);
+        padding: 30px 10px;
     }
-button.j{
-    background-color: rgb(15, 137, 172); /* blue */
+a.j{
+    background-color: none; /* blue */
     border-radius: 25px;
     border: none;
     color: white;
@@ -53,13 +55,13 @@ button.j{
     display: inline-block;
     font-size: 16px;
 }
-    button.j:hover{
-        background-color: rgb(0, 153, 255);
+    a.j:hover{
+        background-color: rgba(15, 137, 172, 0.3);
         color: white;
-        box-shadow: 1px 10px 5px rgb(226, 222, 222);
+        padding: 30px 10px;
     }
-button.i{
-    background-color: rgb(20, 142, 44); /* green */
+a.i{
+    background-color: none; /* green */
     border-radius: 25px;
     border: none;
     color: white;
@@ -68,14 +70,15 @@ button.i{
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+    margin-bottom:40px;
 }
-    button.i:hover{
-        background-color: rgb(20, 193, 54);
+    a.i:hover{
+        background-color: rgba(20, 142, 44, 0.3);
         color: white;
-        box-shadow: 1px 10px 5px rgb(226, 222, 222);
+        padding: 30px 10px;
     }
-button.b{
-    background-color: rgb(252, 227, 3); /* yellow */
+a.b{
+    background-color: none; /* yellow */
     border-radius: 25px;
     border: none;
     color: white;
@@ -84,12 +87,16 @@ button.b{
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+    margin-bottom:40px;
 }
-    button.b:hover{
-        background-color: rgb(248, 243, 105);
-        color: black;
-        box-shadow: 1px 10px 5px rgb(226, 222, 222);
+    a.b:hover{
+        background-color: rgba(252, 227, 3, 0.3);
+        color: white;
+        padding: 30px 10px;
     }
+div.align1{
+    text-align: left;
+}
 
 .mapstyle{
     margin-left: 30px;
@@ -97,26 +104,30 @@ button.b{
 }
 
 .about{
-    font-size: 10px;
+    background-color: rgb(80, 80, 80);
+    font-size: 13px;
     padding: 9px 10px;
     border: none;
-    margin-left: 50px;
-    color: black;
+    margin-left: 20px;
+    color: white;
     text-decoration: none;
 }
 .why{
-    font-size: 10px;
+    background-color: rgb(80, 80, 80);
+    font-size: 13px;
     padding: 9px 10px;
     border: none;
-    margin-left: 50px;
-    color: black;
+    margin-left: 20px;
+    color: white;
     text-decoration: none;
 }
 .home{
-    font-size: 10px;
+    background-color: rgb(80, 80, 80);
+    font-size: 13px;
     padding: 9px 10px;
     border: none;
-    color: black;
+    margin-left: 20px;
+    color: white;
     text-decoration: none;
 }
 
@@ -145,15 +156,17 @@ ul{
     overflow: hidden;
     background-color: white;
 }
-/* li{
-    float: left;
-}
-li a {
+
+.opennav1{
     display: block;
-    color: black;
+    color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration:none;
+    font-size: 20px;
+}
+/* li{
+    float: left;
 }
 li a:hover{
     background-color:rgb(152, 32, 170);
@@ -188,7 +201,7 @@ header{
 .overlay-content {
     position: relative;
     top: 25%; /* 25% from the top */
-    width: 50%; /* 100% width */
+    width: 100%; /* 100% width */
     text-align: center; /* Centered text/links */
     margin-top: 30px; /* 30px top margin to avoid conflict with the close button on smaller screens */
 }
@@ -198,9 +211,9 @@ header{
     padding: 8px;
     text-decoration: none;
     font-size: 36px;
-    color: #818181;
+    color: white;
     display: block; /* Display block instead of inline */
-    transition: 0.3s; /* Transition effects on hover (color) */
+    /* transition: 0.3s;  Transition effects on hover (color) */ 
 }
 
 /* When you mouse over the navigation links, change their color */
@@ -225,4 +238,15 @@ of the links and position the close button again, so they don't overlap */
         top: 15px;
         right: 35px;
     }
+}
+.cd-blurred-bg {
+  /* we use jQuery to apply a mask to this element - CSS clip property */
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url("../img/bg-img.jpg") no-repeat center center;
+  background-size: cover;
+  filter: blur(4px);
 }
