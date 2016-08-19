@@ -156,7 +156,7 @@ Main components
 .cd-fixed-bg h1, .cd-fixed-bg h2 {
   position: absolute;
   left: 50%;
-  top: 15%;
+  top: 20%;
   bottom: auto;
   right: auto;
   -webkit-transform: translateX(-50%) translateY(-50%);
@@ -169,7 +169,7 @@ Main components
   text-align: center;
   font-size: 30px;
   font-size: 1.875rem;
-  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
   color: white;
 }
 p.aaa {
@@ -187,7 +187,7 @@ p.aaa {
 	text-align: center;
 }
 .cd-fixed-bg.cd-bg-1 {
-  background-image: url("stained2.jpg");
+  background-image: url("durga.jpg");
 }
 .cd-fixed-bg.cd-bg-2 {
   background-image: url("../img/cd-background-2.jpg");
@@ -224,15 +224,15 @@ p.aaa {
   z-index: 2;
 }
 .cd-scrolling-bg.cd-color-1 {
-  background-color:rgba(105, 0, 127, 0.95);
+  background-color:rgba(255, 89, 0, 0.95);
   color: white;
 }
 .cd-scrolling-bg.cd-color-2 {
-  background-color:rgba(105, 0, 127, 0.95);
+  background-color:rgba(255, 89, 0, 0.95);
   color: white;
 }
 .cd-scrolling-bg.cd-color-3 {
-  background-color: rgba(105, 0, 127, 0.95);
+  background-color: rgba(255, 89, 0, 0.95);
   color: white;
 }
 
@@ -245,3 +245,15 @@ p.aaa {
     font-weight: 300;
   }
 }
+
+#caption {
+	text-align: center;
+	top: 20%;
+	bottom: 20;
+}
+ul{
+	list-style-type: circle;
+}
+div.answer {
+	color: black;
+	font-family: Roboto}
