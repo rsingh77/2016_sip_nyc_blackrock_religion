@@ -1,7 +1,5 @@
-/* -------------------------------- 
-
+/* --------------------------------
 Primary style
-
 -------------------------------- */
 html * {
   -webkit-font-smoothing: antialiased;
@@ -30,18 +28,44 @@ a {
   text-decoration: none;
 }
 
-p.style{
-    color: yellow;
+p.visual{
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
-/* -------------------------------- 
-
+.position1{
+    margin-bottom: -50px;
+    margin-left: 300px;
+    margin-top: 50px;
+}
+.format{
+    background-color: rgb(255, 255, 102);
+    font-size: 15px;
+    font-family: "Roboto", sans-serif;
+}
+a.font{
+    font-family: "Roboto", sans-serif;
+}
+div.center{
+  margin-bottom: 200px;
+  margin-left: -100px;
+  margin-top: 200px;
+}
+h2{
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+}
+.bgfaq{
+  background-image: url("pic5.jpg");
+}
+/* --------------------------------
 Modules - reusable parts of our design
-
 -------------------------------- */
 .cd-container {
   /* this class is used to give a max-width to the element it is applied to, and center it horizontally when it reaches that max-width */
   width: 90%;
-  
+
   max-width: 768px;
   margin: 0 auto;
 }
@@ -52,10 +76,8 @@ Modules - reusable parts of our design
   clear: both;
 }
 
-/* -------------------------------- 
-
-Main components 
-
+/* --------------------------------
+Main components
 -------------------------------- */
 .cd-header {
   position: fixed;
@@ -204,10 +226,8 @@ Main components
   text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
   color: white;
 }
-
-/* background color stuff */
 .cd-fixed-bg.cd-bg-1 {
-    background-image: url("pic7.jpg"); 
+    background-image: url("pic7.jpg");
 }
 .cd-fixed-bg.cd-bg-2 {
   background-image: url("../img/cd-background-2.jpg");
@@ -263,12 +283,3 @@ Main components
     font-weight: 300;
   }
 }
-/* slide show */
-div.position1{
-    margin-top: 50px;
-    margin-left: 300px;
-    margin-bottom: -100px;
-}
-
-
-
