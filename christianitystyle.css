@@ -49,6 +49,9 @@ Modules - reusable parts of our design
   clear: both;
 }
 
+ul.bullet{
+	list-style-type: circle;
+}
 /* -------------------------------- 
 
 Main components 
