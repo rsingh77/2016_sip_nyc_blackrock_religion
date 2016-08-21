@@ -1,7 +1,5 @@
-/* -------------------------------- 
-
+/* --------------------------------
 Primary style
-
 -------------------------------- */
 html * {
   -webkit-font-smoothing: antialiased;
@@ -30,11 +28,87 @@ a {
   color: #b4d7a8;
   text-decoration: none;
 }
+div.margin{
+  margin-top: -50px;
+}
+.answer{
+  font-size: 17px;
+  color: black;
+  font-family: "Roboto", sans-serif;
+  background-color: rgb(210, 193, 228);
+}
+p.aaa {
+  width: 1000px;
+	font-size: 18px;
+	color: white;
+	font-family: "Roboto", sans-serif;
+	text-align: center;
+  margin-left: -100px;
+  margin-top: -50px;
 
-/* -------------------------------- 
+}
+ul.font{
+   list-style-type: disc;
+  width: 1000px;
+  font-size: 18px;
+	color: white;
+	font-family: "Roboto", sans-serif;
+  margin-left: -100px;
+  margin-top: 200px;
+}
+ul.font2{
+   list-style-type: circle;
+   font-weight: 100;
+  width: 1000px;
+  font-size: 18px;
+	color: white;
+	font-family: "Roboto", sans-serif;
+  margin-left: -100px;
+  padding: 150px 0 0;
+}
+div.width{
+  width: 1000px;
+  margin-left: -100px;
+}
+div.align1{
+    text-align: left;
+}
+.about{
+    background: none;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    padding: 9px 10px;
+    border: none;
+    margin-left: 20px;
+    color: white;
+    text-decoration: none;
+}
+.why{
+    background: none;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    padding: 9px 10px;
+    border: none;
+    margin-left: 20px;
+    color: white;
+    text-decoration: none;
+}
+.home{
+    background: none;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    padding: 9px 10px;
+    border: none;
+    margin-left: 20px;
+    color: white;
+    text-decoration: none;
+}
+h1.center{
+    margin-top: 100px;
+}
 
+/* --------------------------------
 Modules - reusable parts of our design
-
 -------------------------------- */
 .cd-container {
   /* this class is used to give a max-width to the element it is applied to, and center it horizontally when it reaches that max-width */
@@ -52,10 +126,8 @@ Modules - reusable parts of our design
 ul.bullet{
 	list-style-type: circle;
 }
-/* -------------------------------- 
-
-Main components 
-
+/* --------------------------------
+Main components
 -------------------------------- */
 
 
@@ -174,7 +246,7 @@ Main components
   font-size: 1.875rem;
   text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
   color: white;
-} 
+}
 p.aaa {
 	padding: 8em 0;
     font-size: 20px;
@@ -198,22 +270,20 @@ p.aaa {
 	margin-bottom: auto;
 }
 .cd-fixed-bg.cd-bg-3 {
-  background-image: url("../img/cd-background-3.jpg");
+  background-color:rgba(105, 0, 127, 0.95);
 }
-.cd-fixed-bg.cd-bg-4 {
-  background-image: url("../img/cd-background-4.jpg");
-}
+
 @media only screen and (min-width: 768px) {
   .cd-fixed-bg h1, .cd-fixed-bg h2 {
     font-size: 36px;
   }
-}
+
 @media only screen and (min-width: 1170px) {
   .cd-fixed-bg {
     background-attachment: fixed;
   }
   .cd-fixed-bg h1, .cd-fixed-bg h2 {
-    font-size: 48px;
+    font-size: 40px;
     font-weight: 300;
   }
 }
@@ -235,7 +305,11 @@ p.aaa {
   color: white;
 }
 .cd-scrolling-bg.cd-color-3 {
-  background-color: rgba(105, 0, 127, 0.95);
+  background-image: url("chris7.jpg");
+  color: white;
+}
+.cd-scrolling-bg.cd-color-4 {
+  background-color:rgba(105, 0, 127, 0.95);
   color: white;
 }
 @media only screen and (min-width: 768px) {

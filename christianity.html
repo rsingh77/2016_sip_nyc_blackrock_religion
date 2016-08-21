@@ -1,56 +1,3 @@
-<!-- <!DOCTYPE html>
-<html>
-    <head>
-    <link rel="stylesheet" type="text/css" href="religionCSS.css">
-
-    <script>
-    /* Open when someone clicks on the span element */
-    function openNav() {
-        document.getElementById("myNav").style.width = "100%";
-    }
-
-    /* Close when someone clicks on the "x" symbol inside the overlay */
-    function closeNav() {
-        document.getElementById("myNav").style.width = "0%";
-    }
-    </script>
-
-    </head>
-        <div>
-            <a href = "religionHTML.html"><button class="home">HOME</button>
-            <a href = "about.html"><button class="about"> ABOUT US</button></a>
-            <a href = "whymatter.html"><button class="why">WHY RELIGION MATTERS</button></a>
-        </div>
-
-        <h1 class="heading">CHRISTIANITY</h1>
-        <body>
-        <!-- nav bar-->
-       <!-- <div id="myNav" class="overlay">
-
-          <!-- Button to close the overlay navigation
-          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>-->
-
-          <!-- Overlay content
-          <div class="overlay-content">
-            <a href="#">About</a>
-            <a href="#">Services</a>
-            <a href="#">Clients</a>
-            <a href="#">Contact</a>
-          </div>
-
-        </div>-->
-
-<!-- Use any element to open/show the overlay navigation menu
-<span onclick="openNav()">&#9776;</span>
-        <p class="parag1">
-
-        </p>
-
-         <p class="parag1">
-         </p>
-    </body>
-</html>  -->
-
 <!doctype html>
 <html lang="en" class="no-js">
 <head>
@@ -74,18 +21,22 @@
 
 	<main class="cd-main-content">
 		<div class="cd-fixed-bg cd-bg-1">
-			<h1>CHRISTIANITY</h1>
-			<p class ="aaa" >
-			Christianity emerged during the Roman Empire in the 1st century C.E. The basic principles of Christianity are based on the life and teachings of Jesus.
-			Jesus was a Jewish prophet who preached in Israel about purifying Judaism in order to estable the kingdom of God on earth.
-			Christianity is comprised of many branches and subcategories. The three most notable branches are Roman Catholicism, Eastern Orthodoxy, and Protestantism.
-			Currently, Christianity is the most practiced religion worldwide with more than 2.18 billion Christians worldwide.
-			</p>
+				<div class="align1">
+						<a href = "../religionHTML.html"><button class="home">HOME</button>
+						<a href = "../about.html"><button class="about">ABOUT US</button></a>
+						<a href = "../whymatter.html"><button class="why">WHY RELIGION MATTERS</button></a>
+				</div>
+			<h1 class="center">CHRISTIANITY</h1>
 		</div> <!-- cd-fixed-bg -->
 
 		<div class="cd-scrolling-bg cd-color-2">
 			<div class="cd-container">
-				<ul style="list-style-ype:disc">
+				<p class="aaa">Christianity emerged during the Roman Empire in the 1st century C.E. The basic principles of Christianity are based on the life and teachings of Jesus.
+				Jesus was a Jewish prophet who preached in Israel about purifying Judaism in order to estable the kingdom of God on earth.
+				Christianity is comprised of many branches and subcategories. The three most notable branches are Roman Catholicism, Eastern Orthodoxy, and Protestantism.
+				Currently, Christianity is the most practiced religion worldwide with more than 2.18 billion Christians worldwide.
+				</p>
+				<ul class="font">
 					<li>Similar beliefs to Judaism - coming of Messiah</li>
 					<li>Appeal to poor people</li>
 					<li>Jesus of Nazareth was born Jewish - he preached in Israel: a moral code of love, charity, and humility</li>
@@ -115,12 +66,13 @@
 
 <div class="w3-container">
 		</div>
-
+		<div class="margin">
 		<div class="w3-content w3-display-container" style="max-width:800px">
-		  <img class="mySlides" src="chris1.jpg" style="width:100%">
-		  <img class="mySlides" src="chris2.jpg" style="width:100%">
-		  <img class="mySlides" src="chris3.jpg" style="width:100%">
-		  <img class="mySlides" src="chris4.jpg" style="width:100%">
+		  <img class="mySlides" src="chris5.jpg" style="width:100%"> <!--Sagrada Familia, Barcelona, Spain-->
+		  <img class="mySlides" src="chris6.jpg" style="width:100%"> <!--Saint Basil’s Cathedral, Moscow, Russia -->
+		  <img class="mySlides" src="chris8.jpg" style="width:100%"> <!--LAS LAJAS SANCTUARY, COLOMBIA-->
+		  <img class="mySlides" src="chris4.jpg" style="width:100%"> <!--Velankanni Church -->
+			<img class="mySlides" src="chris9.jpg" style="width:100%"> <!--CATHEDRAL OF BRASILIA-->
 		  <div class="w3-center w3-section w3-large w3-text-white w3-display-bottomleft" style="width:100%">
 			<div class="w3-left w3-padding-left w3-hover-text-khaki" onclick="plusDivs(-1)">&#10094;</div>
 			<div class="w3-right w3-padding-right w3-hover-text-khaki" onclick="plusDivs(1)">&#10095;</div>
@@ -128,21 +80,27 @@
 			<span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
 			<span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
 			<span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(4)"></span>
+			<span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(5)"></span>
 		  </div>
 		</div>
-
+	</div>
 		<script>
+		var captions = ["The Akshardham Temple in Delhi stands tall on the banks of the Yamuna river as a testament to more than 10,000 years of Indian culture and traditions. Inaugarated on November 6th, 2005, the massive temple complex contains more than 100 acres of lawn, a musical water fountain, an IMAX theatre, a holy lake called the Narayan Sarovar and thousands of exquisite statues including a grand depiction of Lord Swaminarayan."
+		,"aaa"
+		,"asdfd"
+		,"adsfdsf"
+		,"asdsad"
+		,"aaaaaaaaa",
+	];
+
 		var slideIndex = 1;
 		showDivs(slideIndex);
-
 		function plusDivs(n) {
 		  showDivs(slideIndex += n);
 		}
-
 		function currentDiv(n) {
 		  showDivs(slideIndex = n);
 		}
-
 		function showDivs(n) {
 		  var i;
 		  var x = document.getElementsByClassName("mySlides");
@@ -157,7 +115,10 @@
 		  }
 		  x[slideIndex-1].style.display = "block";
 		  dots[slideIndex-1].className += " w3-white";
-		}
+
+			var caption = document.getElementById("caption");
+			caption.innerHTML = captions[slideIndex-1];
+			};
 		</script>
 		</div>
 		</div> <!-- cd-fixed-bg -->
@@ -167,127 +128,131 @@
 					<div>
 					  <h2 class = "cooltitle">CHRISTIANITY <strong>FAQ</strong></h2>
 					  <p>Stuff to know.</p>
-					  <div class="panel-group" id="accordion">
+					  <div class="width" class="panel-group" id="accordion">
 					    <div class="panel panel-default">
 					      <div class="panel-heading">
 					        <h4 class="panel-title">
-					          <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">QUESTION 1</a>
+					          <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">What is Baptism?</a>
 					        </h4>
 					      </div>
 					      <div id="collapse1" class="panel-collapse collapse in">
-					        <div class="panel-body">answer</div>
+					        <div class="answer" class="panel-body">Baptism is a ceremony through which a person can be cleansed of sin. It is done by immersing them in water, however some faiths chose to sprinkle water on people instead of immersing them.
+										Baptism symbolize that the individual has turned from the old life of sin to a new life in Jesus Christ.</div>
 					      </div>
 					    </div>
 					    <div class="panel panel-default">
 					      <div class="panel-heading">
 					        <h4 class="panel-title">
-					          <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">QUESTION 2</a>
+					          <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">why are there so many christian denominations?</a>
 					        </h4>
 					      </div>
 					      <div id="collapse2" class="panel-collapse collapse">
-					        <div class="panel-body"> answer</div>
+					        <div class="answer" class="panel-body">Denominations of the Christian faith started around the time of the Protestant Reformation. This movement was caused by the desire to reform the Roman Catholic Church.
+										 During this time 4 major divisions emerged: Lutheran, Reformed, Anabaptist, and Anglican. Over time, these four divisions produced many other denominations. Frequently, denominations only differ in the style of worship to adjust to different preferences.</div>
 					      </div>
 					    </div>
 					    <div class="panel panel-default">
 					      <div class="panel-heading">
 					        <h4 class="panel-title">
-					          <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">QUESTION 3</a>
+					          <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">What is the difference between christianity and judaism?</a>
 					        </h4>
 					      </div>
 					      <div id="collapse3" class="panel-collapse collapse">
-					        <div class="panel-body">answer</div>
+					        <div class="answer" class="panel-body">Christianity and Judaism are very similar. The main distinction between Christianity and Judaism is the perception of Jesus. Judaism believes Jesus was a good teacher, but he was not Messiah.
+										Christians believe Jesus Christ is the fulfillment of the Old Testament prophecies of a coming Messiah. </div>
 					      </div>
 					    </div>
 							<div class="panel panel-default">
 								<div class="panel-heading">
 									<h4 class="panel-title">
-										<a data-toggle="collapse" data-parent="#accordion" href="#collapse4">QUESTION 4</a>
+										<a data-toggle="collapse" data-parent="#accordion" href="#collapse4">What is Holy Week?</a>
 									</h4>
 								</div>
 								<div id="collapse4" class="panel-collapse collapse">
-									<div class="panel-body">answer</div>
+									<div class="answer" class="panel-body">The final week of Lent is known as “Holy Week.” It begins with Palm  Sunday, remembering Jesus' entry into Jerusalem just before his Passion.
+										Holy Thursday recreates the Last Supper in which Jesus fed his disciples on the night before he died and washed their feet. Good Friday was the day that Jesus was crucified to death. Holy Saturday is recreated because of  the time of waiting while the body of Jesus lay in the tomb. Lent ends either with the Great Easter Vigil on Easter Eve, or with the Easter Day service.</div>
 								</div>
 							</div>
 							<div class="panel panel-default">
 								<div class="panel-heading">
 									<h4 class="panel-title">
-										<a data-toggle="collapse" data-parent="#accordion" href="#collapse5">QUESTION 5</a>
+										<a data-toggle="collapse" data-parent="#accordion" href="#collapse5">Why do Christians think that a woman should not have an abortion?</a>
 									</h4>
 								</div>
 								<div id="collapse5" class="panel-collapse collapse">
-									<div class="panel-body">answer</div>
+									<div class="answer" class="panel-body">Christians as a whole are divided on the topic of abortion. The beliefs of Christians range from extremely pro-life to extremely pro-choice. Although there is no general agreement on the topic, most Christians would agree to avoid having an abortion if satisfactory alternatives are available.
+										Numerous churches, like United Church of Christ, Episcopal, Presbyterian and United Methodist, support a woman's choice to have abortion if she believes it is the best choice. A survey conducted by LifeWay, a Christian research group, showed that 70% of the 1,038 women they interviewed who has abortions were Christian.</div>
 								</div>
 							</div>
 							<div class="panel panel-default">
 								<div class="panel-heading">
 									<h4 class="panel-title">
-										<a data-toggle="collapse" data-parent="#accordion" href="#collapse6">QUESTION 6</a>
+										<a data-toggle="collapse" data-parent="#accordion" href="#collapse6">Why can’t non-Catholics receive Holy Communion in the Catholic Church?</a>
 									</h4>
 								</div>
 								<div id="collapse6" class="panel-collapse collapse">
-									<div class="panel-body">answer</div>
+									<div class="answer" class="panel-body">Catholics believe in the Real Presence of Jesus in the Eucharist, so the bread and wine is really Jesus’ body and blood. Receiving the Eucharist symbolize unity among all those in communion with the Catholic Church around the world. As a result, only those who believe in the Real Presence can receive the Eucharist.</div>
 								</div>
 							</div>
 							<div class="panel panel-default">
 								<div class="panel-heading">
 									<h4 class="panel-title">
-										<a data-toggle="collapse" data-parent="#accordion" href="#collapse7">QUESTION 7</a>
+										<a data-toggle="collapse" data-parent="#accordion" href="#collapse7">Do Orthodox Christians have a “Pope”?</a>
 									</h4>
 								</div>
 								<div id="collapse7" class="panel-collapse collapse">
-									<div class="panel-body">answer</div>
+									<div class="answer" class="panel-body">The Orthodox Church does not have a single spiritual leader like the Pope is to the Catholic church. It is organized into “jurisdictions” following national and historic lines, based on the early Church model of conciliar church leadership seen in the Book of Acts.
+										Each group is governed by synods, which are councils of bishops. Synods have equal authority and do not interfere in one another’s affairs. The Patriarch of Constantinople is known as the “Ecumenical” Patriarch.
+										Since the division of the Roman Catholic Church from the Eastern churches, he has enjoyed a position of honor among the Orthodox communities. </div>
 								</div>
 							</div>
 							<div class="panel panel-default">
 								<div class="panel-heading">
 									<h4 class="panel-title">
-										<a data-toggle="collapse" data-parent="#accordion" href="#collapse8">QUESTION 8</a>
+										<a data-toggle="collapse" data-parent="#accordion" href="#collapse8">What are the ten commandments?</a>
 									</h4>
 								</div>
 								<div id="collapse8" class="panel-collapse collapse">
-									<div class="panel-body">answer</div>
+									<div class="answer" class="panel-body"> They are beneficial laws intended to guide us to live a better life. God himself spoke the 10 commandments from Mount Sinai.
+										 Moses recorded the commandments in Exodus 20 and Deuteronomy 5. Obeying the commandments is necessary for gaining eternal life because disobeying the commandments translates to a lack of love for God.</div>
 								</div>
 							</div>
 							<div class="panel panel-default">
 								<div class="panel-heading">
 									<h4 class="panel-title">
-										<a data-toggle="collapse" data-parent="#accordion" href="#collapse9">QUESTION 9</a>
+										<a data-toggle="collapse" data-parent="#accordion" href="#collapse9">Can you explain the Trinity?</a>
 									</h4>
 								</div>
 								<div id="collapse9" class="panel-collapse collapse">
-									<div class="panel-body">answer</div>
+									<div class="answer" class="panel-body">The word Trinity is made up of “tri”, meaning three, and “unity”, meaning joined as a whole. The trinity is God the Father, God the Son, and God the Holy Spirit. There is only one God but His nature has 3 personal distinctions.
+										 God is not limited to a three-dimensional universe. God the Son can be the same as God the Father, but also different. Each is different from the other, but they do not act independently; they are one in nature.</div>
 								</div>
 							</div>
-							<div class="panel panel-default">
-								<div class="panel-heading">
-									<h4 class="panel-title">
-										<a data-toggle="collapse" data-parent="#accordion" href="#collapse10">QUESTION 10</a>
-									</h4>
-								</div>
-								<div id="collapse10" class="panel-collapse collapse">
-									<div class="panel-body">answer</div>
-								</div>
-							</div>
+
 					  </div>
 					</div>
 			</div> <!-- cd-container -->
 		</div> <!-- cd-scrolling-bg -->
 
 		<div class="cd-fixed-bg cd-bg-3">
-			<h2>Lorem ipsum dolor sit amet.</h2>
-		</div> <!-- cd-fixed-bg -->
-
-		<div class="cd-scrolling-bg cd-color-1">
 			<div class="cd-container">
-				<p>
-				AAAAAAAAAAA
-				</p>
-			</div> <!-- cd-container -->
-		</div> <!-- cd-scrolling-bg -->
+			<h2>MORE RESOURCES</h2>
+			<ul class="font2">
+				<li>More FAQs: http://www.clarifyingchristianity.com/faq.shtml</li>
+				<!--<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li> -->
+			</ul>
+			</div>
+	  </div> <!-- cd-fixed-bg -->
 
-		<div class="cd-fixed-bg cd-bg-4">
-			<h2>Lorem ipsum dolor sit amet.</h2>
-		</div> <!-- cd-fixed-bg -->
 	</main> <!-- cd-main-content -->
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 	<script src="christianitymain.js"></script> <!-- Resource jQuery -->
