@@ -24,8 +24,13 @@
 				<div class="align1">
 						<a href = "../religionHTML.html"><button class="home">HOME</button>
 						<a href = "../about.html"><button class="about">ABOUT US</button></a>
-						<a href = "../whymatter.html"><button class="why">WHY RELIGION MATTERS</button></a>
-				</div>
+						<a href = "../whymatter.html"><button class="why">WHY WE CARE</button></a>
+
+                      <a href = "../Islam/islam.html"><button class="about">ISLAM</button></a>
+                      <a href = "../Judaism/judaism.html"><button class="about">JUDAISM</button></a>
+                      <a href = "../Buddhism/buddhism.html"><button class="about">BUDDHISM</button></a>
+                      <a href = "../Hinduism/hinduism.html"><button class="about">HINDUISM</button></a> 
+                </div>
 			<h1 class="center">CHRISTIANITY</h1>
 		</div> <!-- cd-fixed-bg -->
 
@@ -71,7 +76,7 @@
 		  <img class="mySlides" src="chris5.jpg" style="width:100%"> <!--Sagrada Familia, Barcelona, Spain-->
 		  <img class="mySlides" src="chris6.jpg" style="width:100%"> <!--Saint Basil’s Cathedral, Moscow, Russia -->
 		  <img class="mySlides" src="chris8.jpg" style="width:100%"> <!--LAS LAJAS SANCTUARY, COLOMBIA-->
-		  <img class="mySlides" src="chris4.jpg" style="width:100%"> <!--Velankanni Church -->
+		  <img class="mySlides" src="chris4.jpg" style="width:100%"> <!--Basilica of Our Lady of Good Health, Velankanni-->
 			<img class="mySlides" src="chris9.jpg" style="width:100%"> <!--CATHEDRAL OF BRASILIA-->
 		  <div class="w3-center w3-section w3-large w3-text-white w3-display-bottomleft" style="width:100%">
 			<div class="w3-left w3-padding-left w3-hover-text-khaki" onclick="plusDivs(-1)">&#10094;</div>
@@ -83,16 +88,17 @@
 			<span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(5)"></span>
 		  </div>
 		</div>
-	</div>
+        </div>
+        
+        
+        <div id="caption">Caption Text</div>
 		<script>
-		var captions = ["The Akshardham Temple in Delhi stands tall on the banks of the Yamuna river as a testament to more than 10,000 years of Indian culture and traditions. Inaugarated on November 6th, 2005, the massive temple complex contains more than 100 acres of lawn, a musical water fountain, an IMAX theatre, a holy lake called the Narayan Sarovar and thousands of exquisite statues including a grand depiction of Lord Swaminarayan."
-		,"aaa"
-		,"asdfd"
-		,"adsfdsf"
-		,"asdsad"
-		,"aaaaaaaaa",
-	];
-
+		var captions = ["The Sagrada Familia is a Roman Catholic church designed by Spanish architect Antoni Gaudí located in Barcelona, Catalonia, Spain.Construction of the church began in 1882, when Gaudí became involved with the project, he incorportaed Gothic and curvilinear Art Nouveau styles to the church. The church was the inspiration of a bookseller named Josep Maria Bocabella who, after his visit to the Vatican, desired to build a church modeled after one in Loreto."
+		,"St. Basil's Cathedral is a Russian Orthodox church in Red Square, Moscow, Russia. It is now a museum and known as “Cathedral of the Intercession of the Most Holy Theotokos on the Moat”.  It was built from 1555–61 at the request of Ivan the Terrible to symbolize the capture of Kazan from Mongol forces in 1552."
+		,"Las Lajas Sanctuary is a Roman Catholic basilica, located in the southern Colombian Department of Nariño. The church was but from 1916 and 1949 in Gothic Revival style. The church was inspired by the event of Amerindian Maria Mueces and her deaf-mute daughter Rosa being caught in a very strong storm. The unique feature of the church is that it was built inside the canyon where the Guitara River flows."
+		,"The Basilica of Our Lady of Good Health is a Roman Catholic church located in Velankanni, Tamil Nadu in Southern India. The Shrine of Our Lady of Vailankanni is one of the most visited religious sites 3 miracles are believed to have happened near the church: the apparition of Mary and the Christ Child to a slumbering shepherd boy, the curing of a lame buttermilk vendor, and the rescue of Portuguese sailors from a violent sea storm."
+		,"The Cathedral of Brasília is a Roman Catholic cathedral in Brazil. It was designed by Oscar Niemeyer and completed on May 31, 1970.  The cathedral is famous for its unique shape, a hyperboloid structure with 16 concrete columns. ",
+        ];
 		var slideIndex = 1;
 		showDivs(slideIndex);
 		function plusDivs(n) {
@@ -115,7 +121,6 @@
 		  }
 		  x[slideIndex-1].style.display = "block";
 		  dots[slideIndex-1].className += " w3-white";
-
 			var caption = document.getElementById("caption");
 			caption.innerHTML = captions[slideIndex-1];
 			};
@@ -132,34 +137,34 @@
 					    <div class="panel panel-default">
 					      <div class="panel-heading">
 					        <h4 class="panel-title">
-					          <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">What is Baptism?</a>
+					          <a class="question" data-toggle="collapse" data-parent="#accordion" href="#collapse1">What is Baptism?</a>
 					        </h4>
 					      </div>
 					      <div id="collapse1" class="panel-collapse collapse in">
-					        <div class="answer" class="panel-body">Baptism is a ceremony through which a person can be cleansed of sin. It is done by immersing them in water, however some faiths chose to sprinkle water on people instead of immersing them.
-										Baptism symbolize that the individual has turned from the old life of sin to a new life in Jesus Christ.</div>
+					        <div class="answer" class="panel-body">Baptism is a ceremony through which a person can be cleansed of sin. Although baptisms are traditionally performed by immersing the individual in water, some faiths chose to sprinkle water instead.
+                            Baptism symbolizes that the individual has turned from the old life of sin to a new life in Jesus Christ.</div>
 					      </div>
 					    </div>
 					    <div class="panel panel-default">
 					      <div class="panel-heading">
 					        <h4 class="panel-title">
-					          <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">why are there so many christian denominations?</a>
+					          <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">why are there so many Christian denominations?</a>
 					        </h4>
 					      </div>
 					      <div id="collapse2" class="panel-collapse collapse">
-					        <div class="answer" class="panel-body">Denominations of the Christian faith started around the time of the Protestant Reformation. This movement was caused by the desire to reform the Roman Catholic Church.
-										 During this time 4 major divisions emerged: Lutheran, Reformed, Anabaptist, and Anglican. Over time, these four divisions produced many other denominations. Frequently, denominations only differ in the style of worship to adjust to different preferences.</div>
+					        <div class="answer" class="panel-body">Denominations of the Christian faith started around the time of the Protestant Reformation  during the 16th century. This movement was caused by the desire to reform the Roman Catholic Church because people were 
+                            questioning their practices. During this time 4 major divisions emerged: Lutheran, Reformed, Anabaptist, and Anglican. Over time, these four divisions produced many other denominations. Frequently, denominations only differ in the style of worship to adjust to different preferences.</div>
 					      </div>
 					    </div>
 					    <div class="panel panel-default">
 					      <div class="panel-heading">
 					        <h4 class="panel-title">
-					          <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">What is the difference between christianity and judaism?</a>
+					          <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">What is the difference between Christianity and Judaism?</a>
 					        </h4>
 					      </div>
 					      <div id="collapse3" class="panel-collapse collapse">
-					        <div class="answer" class="panel-body">Christianity and Judaism are very similar. The main distinction between Christianity and Judaism is the perception of Jesus. Judaism believes Jesus was a good teacher, but he was not Messiah.
-										Christians believe Jesus Christ is the fulfillment of the Old Testament prophecies of a coming Messiah. </div>
+					        <div class="answer" class="panel-body">Christianity and Judaism are very similar, especially in their form of worship, including a priesthood, concepts of sacred space and sacred time. The main distinction between Christianity and Judaism is the perception of Jesus. 
+                            Judaism believes Jesus was a good teacher, but he was not Messiah. Christians believe Jesus Christ is the fulfillment of the Old Testament prophecies of a coming Messiah.</div>
 					      </div>
 					    </div>
 							<div class="panel panel-default">
@@ -180,7 +185,7 @@
 									</h4>
 								</div>
 								<div id="collapse5" class="panel-collapse collapse">
-									<div class="answer" class="panel-body">Christians as a whole are divided on the topic of abortion. The beliefs of Christians range from extremely pro-life to extremely pro-choice. Although there is no general agreement on the topic, most Christians would agree to avoid having an abortion if satisfactory alternatives are available.
+									<div class="answer" class="panel-body">Christians as a whole are divided on the topic of abortion. The bible never explicitly mentioned abortion. The beliefs of Christians range from extremely pro-life to extremely pro-choice. Although there is no general agreement on the topic, most Christians would agree to avoid having an abortion if satisfactory alternatives are available.
 										Numerous churches, like United Church of Christ, Episcopal, Presbyterian and United Methodist, support a woman's choice to have abortion if she believes it is the best choice. A survey conducted by LifeWay, a Christian research group, showed that 70% of the 1,038 women they interviewed who has abortions were Christian.</div>
 								</div>
 							</div>
@@ -239,16 +244,16 @@
 			<h2>MORE RESOURCES</h2>
 			<ul class="font2">
 				<li>More FAQs: http://www.clarifyingchristianity.com/faq.shtml</li>
-				<!--<li></li>
+				<li>More FAQs: http://www.christianbiblereference.org/faq_abortion.htmli>
+				<li>http://www.catholic.com/tracts</li>
+				<li></li>
+				<li>http://www.commisceo-global.com/blog/a-brief-introduction-to-christianity</li>
 				<li></li>
 				<li></li>
 				<li></li>
 				<li></li>
 				<li></li>
 				<li></li>
-				<li></li>
-				<li></li>
-				<li></li> -->
 			</ul>
 			</div>
 	  </div> <!-- cd-fixed-bg -->
