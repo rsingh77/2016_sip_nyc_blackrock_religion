@@ -27,7 +27,9 @@ a {
   color: #b4d7a8;
   text-decoration: none;
 }
-
+h1.center{
+    margin-top: 100px;
+}
 p.visual{
     text-align: center;
     color: black;
@@ -47,17 +49,79 @@ p.visual{
 a.font{
     font-family: "Roboto", sans-serif;
 }
+p.aaa {
+  width: 1000px;
+	font-size: 18px;
+	color: black;
+	font-family: "Roboto", sans-serif;
+	text-align: center;
+  margin-left: -100px;
+  margin-top: -50px;
+
+}
+ul.font{
+   list-style-type: disc;
+  width: 1000px;
+  font-size: 18px;
+	color: black;
+	font-family: "Roboto", sans-serif;
+  margin-left: -100px;
+  margin-top: 200px;
+}
+ul.font2{
+   list-style-type: circle;
+   font-weight: 100;
+  width: 1000px;
+  font-size: 18px;
+	color: black;
+	font-family: "Roboto", sans-serif;
+  margin-left: -100px;
+  padding: 150px 0 0;
+}
 div.center{
   margin-bottom: 200px;
   margin-left: -100px;
   margin-top: 200px;
 }
-h2{
-  text-align: center;
+
+.answer{
+  font-size: 17px;
+  color: black;
   font-family: "Roboto", sans-serif;
+  background-color: rgb(255, 255, 153);
 }
-.bgfaq{
-  background-image: url("pic5.jpg");
+div.margin{
+  margin-top: 50px;
+}
+div.align1{
+    text-align: left;
+}
+.about{
+    background-color: rgb(80, 80, 80);
+    font-size: 13px;
+    padding: 9px 10px;
+    border: none;
+    margin-left: 20px;
+    color: white;
+    text-decoration: none;
+}
+.why{
+    background-color: rgb(80, 80, 80);
+    font-size: 13px;
+    padding: 9px 10px;
+    border: none;
+    margin-left: 20px;
+    color: white;
+    text-decoration: none;
+}
+.home{
+    background-color: rgb(80, 80, 80);
+    font-size: 13px;
+    padding: 9px 10px;
+    border: none;
+    margin-left: 20px;
+    color: white;
+    text-decoration: none;
 }
 /* --------------------------------
 Modules - reusable parts of our design
@@ -210,7 +274,7 @@ Main components
 .cd-fixed-bg h1, .cd-fixed-bg h2 {
   position: absolute;
   left: 50%;
-  top: 50%;
+  top: 15%;
   bottom: auto;
   right: auto;
   -webkit-transform: translateX(-50%) translateY(-50%);
@@ -224,16 +288,17 @@ Main components
   font-size: 30px;
   font-size: 1.875rem;
   text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
-  color: white;
+  color: black;
+  font-family: "Roboto", sans-serif;
 }
 .cd-fixed-bg.cd-bg-1 {
-    background-image: url("pic7.jpg");
+    background-image: url("bpic7.jpg");
 }
 .cd-fixed-bg.cd-bg-2 {
   background-image: url("../img/cd-background-2.jpg");
 }
 .cd-fixed-bg.cd-bg-3 {
-  background-image: url("../img/cd-background-3.jpg");
+  background-color: rgba(255, 255, 0, 0.95);
 }
 .cd-fixed-bg.cd-bg-4 {
   background-image: url("../img/cd-background-4.jpg");
@@ -271,7 +336,7 @@ Main components
   color: #3d3536;
 }
 .cd-scrolling-bg.cd-color-3 {
-  background-color: rgb(255, 255, 0);
+  background-image: url("bpic5.jpg");
   color: #3d3536;
 }
 @media only screen and (min-width: 768px) {
