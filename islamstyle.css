@@ -1,5 +1,7 @@
 /* --------------------------------
+
 Primary style
+
 -------------------------------- */
 html * {
   -webkit-font-smoothing: antialiased;
@@ -16,6 +18,7 @@ body {
   font-size: 100%;
   font-family: "Roboto", sans-serif;
   color: #3d3536;
+  background-color: white;
 }
 
 body, html {
@@ -28,51 +31,14 @@ a {
   text-decoration: none;
 }
 
-p.visual{
-    text-align: center;
-    color: black;
-    font-size: 20px;
-    font-family: "Trebuchet MS", Helvetica, sans-serif;
-}
-.position1{
-    margin-bottom: -50px;
-    margin-left: 300px;
-    margin-top: 50px;
-}
-.format{
-    background-color: rgb(0, 204, 102);
-    font-size: 15px;
-    font-family: "Roboto", sans-serif;
-    color: white;
-}
-a.font{
-    font-family: "Roboto", sans-serif;
-}
-div.center{
-  margin-bottom: 200px;
-  margin-left: -100px;
-  margin-top: -200px;
-}
-.bgfaq{
-    background-image: url("islam6.jpg");
-}
-h2{
-  text-align: center;
-  font-family: "Roboto", sans-serif;
-}
-.bgfaq{
-  background-color: rgb(160, 160, 160);
-}
-p.caption{
-    margin-right: 800px;
-}
 /* --------------------------------
+
 Modules - reusable parts of our design
+
 -------------------------------- */
 .cd-container {
   /* this class is used to give a max-width to the element it is applied to, and center it horizontally when it reaches that max-width */
   width: 90%;
-
   max-width: 768px;
   margin: 0 auto;
 }
@@ -84,45 +50,18 @@ Modules - reusable parts of our design
 }
 
 /* --------------------------------
+
 Main components
+
 -------------------------------- */
-.cd-header {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 50px;
-  background: rgba(255, 255, 255, 0.95);
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
-  z-index: 2;
-}
-.cd-header:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-.cd-header #cd-logo {
-  float: left;
-  margin: 13px 0 0 5%;
-}
-.cd-header #cd-logo img {
-  display: block;
-}
-@media only screen and (min-width: 768px) {
-  .cd-header {
-    height: 70px;
-  }
-  .cd-header #cd-logo {
-    margin: 23px 0 0 5%;
-  }
-}
+
 
 .cd-main-nav {
   float: right;
   margin-right: 5%;
   width: 44px;
   height: 100%;
-  background: url("../img/cd-icon-menu.svg") no-repeat center center;
+  background: url("islam3.jpg") no-repeat center center;
   background-size: 44px 44px;
   cursor: pointer;
 }
@@ -183,7 +122,7 @@ Main components
   }
   .cd-main-nav a {
     display: inline-block;
-    height: auto;
+    height: 500px;
     line-height: normal;
     background: transparent;
     padding: .6em 1em;
@@ -201,7 +140,7 @@ Main components
 
 .cd-main-content {
   /* you need to assign a min-height to the main content so that the children can inherit it*/
-  height: 100%;
+  height: 80%;
   position: relative;
   z-index: 1;
 }
@@ -217,7 +156,7 @@ Main components
 .cd-fixed-bg h1, .cd-fixed-bg h2 {
   position: absolute;
   left: 50%;
-  top: 50%;
+  top: 20%;
   bottom: auto;
   right: auto;
   -webkit-transform: translateX(-50%) translateY(-50%);
@@ -230,14 +169,30 @@ Main components
   text-align: center;
   font-size: 30px;
   font-size: 1.875rem;
-  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
   color: white;
 }
+p.aaa {
+	padding: 8em 0;
+    font-size: 20px;
+    font-size: 1.25rem;
+    line-height: 2;
+    font-weight: 300;
+	color: white;
+	position: absolute;
+	margin-top: 0%;
+	margin-bottom: 1%;
+	margin-left: 1%;
+	margin-right: 5%;
+	text-align: center;
+}
 .cd-fixed-bg.cd-bg-1 {
-    background-image: url("islam3.jpg");
+  background-image: url("islam3.jpg");
 }
 .cd-fixed-bg.cd-bg-2 {
   background-image: url("../img/cd-background-2.jpg");
+	margin-top: 5%;
+	margin-bottom: auto;
 }
 .cd-fixed-bg.cd-bg-3 {
   background-image: url("../img/cd-background-3.jpg");
@@ -268,19 +223,23 @@ Main components
   box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
   z-index: 2;
 }
-}
 .cd-scrolling-bg.cd-color-1 {
-  background-color: rgb(0, 204, 102);
-  color: #3d3536;
+  background-color:rgba(0, 204, 102, 0.95);
+  color: white;
 }
 .cd-scrolling-bg.cd-color-2 {
-  background-color: rgb(0, 204, 102);
-  color: #3d3536;
+    background-color:rgba(0, 204, 102, 0.95);
+  color: white;
 }
 .cd-scrolling-bg.cd-color-3 {
-  background-color: rgb(0, 204, 102);
-  color: #3d3536;
+  background-image: url("i_jameh.jpg");
+  min-height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  color: white;
 }
+
 @media only screen and (min-width: 768px) {
   .cd-scrolling-bg {
     padding: 8em 0;
@@ -290,3 +249,58 @@ Main components
     font-weight: 300;
   }
 }
+
+#caption {
+	text-align: center;
+	margin-left: 15%;
+	margin-right: 15%;
+	margin-top: 2%;
+	margin-bottom: 3.5%;
+	 font-family: "Roboto", sans-serif;
+}
+ul{
+	list-style-type: circle;
+}
+div.answer {
+	color: black;
+	font-family: Roboto;
+	
+	margin-left: 1%;
+	margin-right: 1%;
+	font-size: 16px;
+}
+
+div.align1{
+    text-align: left;
+}
+.about{
+    background: none;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    padding: 9px 10px;
+    border: none;
+    margin-left: 20px;
+    color: white;
+    text-decoration: none;
+}
+.why{
+    background: none;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    padding: 9px 10px;
+    border: none;
+    margin-left: 20px;
+    color: white;
+    text-decoration: none;
+}
+.home{
+    background: none;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    padding: 9px 10px;
+    border: none;
+    margin-left: 20px;
+    color: white;
+    text-decoration: none;
+}
+
