@@ -72,7 +72,7 @@
 		<div class="w3-content w3-display-container" style="max-width:800px">
 		  <img class="mySlides" src="bpic1.jpg" style="width:100%">
 		  <img class="mySlides" src="bpic2.jpg" style="width:100%">
-		  <img class="mySlides" src="bpic3.jpeg" style="width:100%">
+		  <img class="mySlides" src="bpic3.jpg" style="width:100%">
 		  <img class="mySlides" src="bpic4.jpg" style="width:100%">
 
 		  <div class="w3-center w3-section w3-large w3-text-white w3-display-bottomleft" style="width:100%">
@@ -86,12 +86,19 @@
 		</div>
 	  </div>
 
+    <div id="caption">Caption Text</div>
+    
     <script>
-    var slideIndex = 1;
-    showDivs(slideIndex);
-    function plusDivs(n) {
-      showDivs(slideIndex += n);
-    }
+     var captions = ["The Great Mosque of Xi'an is one of the largest Islamic places of worship in Xi'an, Shaanxi province, China. It was founded in 742 during the Tang dynasty, however it was constructed mostly during the Ming dynasty. The mosque can be divided into 4 courtyards and occupies an area of over 12,000 square meters."
+		,"Kurjey Lhakang is located in the Bumthang valley in Bhutan. Sendhu Raja, who was the king of Bumthang during the 8th century fell ill. He turned to Guru Rinpoche hoping he will find a cure. Upon discovering that the local deities were responsible, Rinpoche chased them into a cave.  There is a tall cypress tree near the monastery that is believed to have sprouted from the walking stick of Guru Rinpoche."
+		,"Pha That Luang is a gold-covered large Buddhist stupa in the centre of Vientiane, Laos. It was build around the 3rd century but has gone through many reconstructions due to foreign invasions in the area. It is believed to have originally been a Hindu temple. The stupa is a very important national monument in Laos."
+		,"Kōtoku-in is a Buddhist temple of the Jōdo-shū sect in Kanagawa Prefecture, Japan. It is well known for its monumental outdoor bronze statue of Amida Buddha. The statue was build around 1252. The bronze statue took the place of a wooden Buddha which was damaged during a storm in 1248.",
+        ];
+     var slideIndex = 1;
+		showDivs(slideIndex);
+		function plusDivs(n) {
+		  showDivs(slideIndex += n);
+		}
     function currentDiv(n) {
       showDivs(slideIndex = n);
     }
@@ -102,14 +109,17 @@
       if (n > x.length) {slideIndex = 1}
       if (n < 1) {slideIndex = x.length}
       for (i = 0; i < x.length; i++) {
-       x[i].style.display = "none";
+         x[i].style.display = "none";
       }
       for (i = 0; i < dots.length; i++) {
-       dots[i].className = dots[i].className.replace(" w3-white", "");
+         dots[i].className = dots[i].className.replace(" w3-white", "");
       }
       x[slideIndex-1].style.display = "block";
       dots[slideIndex-1].className += " w3-white";
-    }
+        var caption = document.getElementById("caption");
+        caption.innerHTML = captions[slideIndex-1];
+        };
+        
     </script>
     </div>
     </div> <!-- cd-fixed-bg -->
@@ -223,16 +233,7 @@
                   of weather and for the enjoyment of seclusion.” During the time of the Buddha, India was covered in forests. He mentioned the “'foot of a tree” as the basic shelter for bhikkhus. Eventually monasteries were built and many adapted to a more settled lifestyle. Today many monks live in village monasteries. </div>
                 </div>
               </div>
-              <div class="panel panel-default">
-                <div class="panel-heading">
-                  <h4 class="panel-title">
-                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse10">QUESTION 10</a>
-                  </h4>
-                </div>
-                <div id="collapse10" class="panel-collapse collapse">
-                  <div class="panel-body">answer</div>
-                </div>
-              </div>
+     
             </div>
           </div>
       </div> <!-- cd-container -->

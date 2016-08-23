@@ -44,7 +44,7 @@ p.aaa {
 	font-family: "Roboto", sans-serif;
 	text-align: center;
   margin-left: -100px;
-  margin-top: -50px;
+  margin-top: -75px;
 
 }
 ul.font{
@@ -54,7 +54,7 @@ ul.font{
 	color: white;
 	font-family: "Roboto", sans-serif;
   margin-left: -100px;
-  margin-top: 200px;
+  margin-top: 95px;
 }
 ul.font2{
    list-style-type: circle;

@@ -29,10 +29,11 @@ a {
   text-decoration: none;
 }
 div.answer{
-    color: rgb(102, 0, 102);
-    font-family: "Roboto", sans-serif;
-    font-size: 17px;
-    text-align: center;
+  font-size: 17px;
+  color: black;
+  font-family: "Roboto", sans-serif;
+  background-color: rgb(173, 216, 230);
+}
 }
 ul{
     list-style-type: circle;
@@ -46,6 +47,56 @@ li{
 ol{
     font-family: "Roboto", sans-serif;
     margin-top: 200px;
+}
+div.margin{
+  margin-top: -2%;
+}
+div.align1{
+    text-align: left;
+}
+h1.center{
+    margin-top: 100px;
+}
+div.width{
+  width: 1000px;
+  margin-left: -100px;
+}
+#caption {
+	text-align: center;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+.about{
+    background: none;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    padding: 9px 10px;
+    border: none;
+    margin-left: 20px;
+    color: white;
+    text-decoration: none;
+}
+.why{
+    background: none;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    padding: 9px 10px;
+    border: none;
+    margin-left: 20px;
+    color: white;
+    text-decoration: none;
+}
+.home{
+    background: none;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    padding: 9px 10px;
+    border: none;
+    margin-left: 20px;
+    color: white;
+    text-decoration: none;
 }
 /* --------------------------------
 Modules - reusable parts of our design
@@ -72,7 +123,7 @@ Main components
   float: right;
   margin-right: 5%;
   width: 44px;
-  height: 100%;
+  height: 80%;
   background: url("../img/cd-icon-menu.svg") no-repeat center center;
   background-size: 44px 44px;
   cursor: pointer;
@@ -207,10 +258,7 @@ p.aaa {
 	margin-bottom: auto;
 }
 .cd-fixed-bg.cd-bg-3 {
-  background-image: url("../img/cd-background-3.jpg");
-}
-.cd-fixed-bg.cd-bg-4 {
-  background-image: url("../img/cd-background-4.jpg");
+   background-color:rgba(0, 0, 139, 0.95);
 }
 @media only screen and (min-width: 768px) {
   .cd-fixed-bg h1, .cd-fixed-bg h2 {
@@ -236,15 +284,15 @@ p.aaa {
   z-index: 2;
 }
 .cd-scrolling-bg.cd-color-1 {
-  background-color:rgba(105, 0, 127, 0.95);
+  background-color:rgba(0, 0, 139 0.95);
   color: white;
 }
 .cd-scrolling-bg.cd-color-2 {
-  background-color:rgba(105, 0, 127, 0.95);
+  background-color:rgba(0, 0, 139, 0.95);
   color: white;
 }
 .cd-scrolling-bg.cd-color-3 {
-  background-color: rgba(105, 0, 127, 0.95);
+  background-image: url("jpic7.jpg");
   color: white;
 }
 

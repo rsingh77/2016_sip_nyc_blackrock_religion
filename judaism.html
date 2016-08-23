@@ -21,7 +21,16 @@
 
 	<main class="cd-main-content">
 		<div class="cd-fixed-bg cd-bg-1">
-			<h1>JUDAISM</h1>
+        				<div class="align1">
+						<a href = "../religionHTML.html"><button class="home">HOME</button>
+						<a href = "../about.html"><button class="about">ABOUT US</button></a>
+						<a href = "../whymatter.html"><button class="why">WHY WE CARE</button></a>
+                      <a href = "../Christianity/christianity.html"><button class="about">CHRISTIANITY</button></a>
+                      <a href = "../Islam/islam.html"><button class="about">ISLAM</button></a>
+                      <a href = "../Buddhism/buddhism.html"><button class="about">BUDDHISM</button></a>
+                      <a href = "../Hinduism/hinduism.html"><button class="about">HINDUISM</button></a>
+				</div>
+			<h1 class="center">JUDAISM</h1>
 		</div> <!-- cd-fixed-bg -->
 
 		<div class="cd-scrolling-bg cd-color-2">
@@ -61,7 +70,7 @@
 
 <div class="w3-container">
 		</div>
-        
+        <div class="margin">
 		<div class="w3-content w3-display-container" style="max-width:800px">
 		  <img class="mySlides" src="jpic1.jpg" style="width:100%"> <!-- Central Synagogue (NY) -->
 		  <img class="mySlides" src="jpic2.jpg" style="width:100%"> <!-- Dohány Street Synagogue -->
@@ -78,13 +87,21 @@
             <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(5)"></span>
 		  </div>
 		</div>
-
+        </div>
+        
+     <div id="caption">Caption Text</div>    
     <script>
+    var captions = ["The Central Synagogue is located at 652 Lexington Avenue on the corner of E 55th Street, Manhattan, New York City, New York. It was build in the Moorish Revival style designed by Henry Fernbach and inspired by Budapest's Dohány Street Synagogue in 1872. It is one of the oldest buildings in the United States. It accidently caught on fire in August of 1998 and was restored in 2001."
+		,"The Dohány Street Synagogue is located in Erzsébetváros, the 7th district of Budapest, Hungary. It is the largest synagogue in Europe and can hold up to 3,00 people at a time. It was constructed between 1854 and 1859 in Moorish Revival style."
+		,"The Eldridge Street Synagogue is a 19th-century landmark with stunning architecture located in  Manhattan's Chinatown neighborhood. It recently recently reopened as a vibrant arts and education center. It is one of the first synagogues in the United States by Eastern European Jews."
+		,"The Grand Choral Synagogue of St. Petersburg is the 2nd largest synagogue in Europe.  It was built between 1880 and 1888 and became a central place of worship for St Petersburg’s growing Jewish community. The synagogue has English-language tours of the building."
+		," Jubilee Synagogue is a synagogue in Prague, Czech Republic. It was designed by Wilhelm Stiassny in 1906 and named in honor of the silver Jubilee of Emperor Franz Joseph I of Austria. The synagogue is designed in Moorish Revival form with Art Nouveau decoration.",
+        ];
     var slideIndex = 1;
-    showDivs(slideIndex);
-    function plusDivs(n) {
-      showDivs(slideIndex += n);
-    }
+		showDivs(slideIndex);
+		function plusDivs(n) {
+		  showDivs(slideIndex += n);
+		}
     function currentDiv(n) {
       showDivs(slideIndex = n);
     }
@@ -95,14 +112,16 @@
       if (n > x.length) {slideIndex = 1}
       if (n < 1) {slideIndex = x.length}
       for (i = 0; i < x.length; i++) {
-       x[i].style.display = "none";
+         x[i].style.display = "none";
       }
       for (i = 0; i < dots.length; i++) {
-       dots[i].className = dots[i].className.replace(" w3-white", "");
+         dots[i].className = dots[i].className.replace(" w3-white", "");
       }
       x[slideIndex-1].style.display = "block";
       dots[slideIndex-1].className += " w3-white";
-    }   
+        var caption = document.getElementById("caption");
+        caption.innerHTML = captions[slideIndex-1];
+        };
     </script>
     </div>
     </div> <!-- cd-fixed-bg -->
@@ -110,96 +129,95 @@
     <div class="cd-scrolling-bg cd-color-3">
       <div class="cd-container">
          <div>
-            <h2 class = "cooltitle">JUDAISM <strong>FAQ</strong></h2>
+            <h2>JUDAISM <strong>FAQ</strong></h2>
             <p>Stuff to know.</p>
-            <div class="panel-group" id="accordion">
+            <div class="width" class="panel-group" id="accordion">
               <div class="panel panel-default">
                 <div class="panel-heading">
                   <h4 class="panel-title">
-                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">What does the word “Torah” means?</a>
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">Why do some Jews write "G-d," instead of spelling it out?</a>
                   </h4>
                 </div>
                 <div id="collapse1" class="panel-collapse collapse in">
-                  <div class="answer" class="panel-body">It means a teaching or doctrine. In the narrow sense, it means specifically the Five Books of Moses, but it is more often used to mean the full body of teachings that God gave to Moses.
-                  The Torah is all the teachings that encompass Judaism. The Torah is how Jews know what they are supposed to do. The full body of the teachings of the Torah includes both the Written Torah and the Oral Torah. The basics of the Oral Torah have been recorded  the Talmud.
-                  The Oral Torah contains what is necessary to understand the Written Torah. When referring to just the Five Books of Moses, many people will use the term "Chumash", which is derived from the word "chamesh," which means "five."</div>
+                  <div class="answer" class="panel-body">Jews are very careful about writing any Name of God. They are prohibited from erasing God’s sacred names that are written in the Torah. 
+                  Jews are advised to prevent writing the name of God casually because will put it at risk of being defaced or destroyed from lack of knowledge by others who don't share their same belief.</div>
                 </div>
               </div>
               <div class="panel panel-default">
                 <div class="panel-heading">
                   <h4 class="panel-title">
-                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">What does the term "Halachah" mean?</a>
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">What is kosher?</a>
                   </h4>
                 </div>
                 <div id="collapse2" class="panel-collapse collapse">
-                  <div class="answer" class="panel-body">It means "gait," or "path." The Halachah is the full body of Law that mandates Jewish conduct, beliefs, and practices. It envelops Jews in everything they do.
-                  Jews therefore call it "Halachah," "The Way For Us To Go." One may say "This Halachah," in referring to a specific Law, or "The Halachah," when referring to the Law in general.</div>
+                  <div class="answer" class="panel-body">Kashrut is a set of Jewish laws concerning how food is prepared and eaten. Kosher food meets the standards of kashrut. 
+                  Food is not blessed by a rabbi to make it kosher, however some Jews recite blessings over kosher food before eating it. There is no “kosher-style” food or cooking. Any food is kosher as long as it follows the Jewish law.</div>
                 </div>
               </div>
               <div class="panel panel-default">
                 <div class="panel-heading">
                   <h4 class="panel-title">
-                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">What does the word "Mitzvah" mean?</a>
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">Why don't some Jews celebrate Halloween?</a>
                   </h4>
                 </div>
                 <div id="collapse3" class="panel-collapse collapse">
-                  <div class="answer" class="panel-body">Mitzvah is a commandment. There are 613 Commandments in the Torah, and each of those Commandments has its associated Jewish law to detail the parameters of that Mitzvah.
-                  The Torah refers to the Ten Commandments as the "Ten Statements" The word mitzvah is used by the Torah to refer to all Jews are required to do. There are over 180 examples of mitzvah usage. </div>
+                  <div class="answer" class="panel-body">Many components of Halloween contradic Jewish beliefs. Jews celebrate Purim, which is Jewish holiday filled with joy and laughter. On Purim, children dress up as clowns and princesses and help 
+                  out those who are less fortunate in their community. Children who participate on Purim learn the importance of giving. In contrast to Purim, on Halloween children demand candy and are encouraged to evoke fear in others.</div>
                 </div>
               </div>
               <div class="panel panel-default">
                 <div class="panel-heading">
                   <h4 class="panel-title">
-                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse4">What is a mezuzah?</a>
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse4">Why don't Jews believe Jesus was the Messiah?</a>
                   </h4>
                 </div>
                 <div id="collapse4" class="panel-collapse collapse">
-                  <div class="answer" class="panel-body">It means doorpost. The Torah commands Jews to write a certain two chapters from the Bible on a kosher piece of parchment, and place it on their doorposts.
-                  There are many intricate Jewish laws involved in this, including the precise shaping of the letters used in the writing. If there is any slight deviation in even one small part of any one letter, the entire mezuzah is not kosher.
-                  This same rule applies to tefillin and Torah scrolls. The essence of the mitzvah of mezuzah is the concept of the Oneness of God.</div>
+                  <div class="answer" class="panel-body">Jews do not believe the Messiah will be crucified nor will he be a savior to the Jews by redeeming them of their sins; it is believed that the Messiah will be a mortal man and he will be the 
+                  ruler in the Holy Land over all the People of Israel. The Messiah will end all suffering and warfare will be abolished.</div>
                 </div>
               </div>
               <div class="panel panel-default">
                 <div class="panel-heading">
                   <h4 class="panel-title">
-                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse5">Why do some Jews write "G-d," instead of spelling it out?</a>
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse5">Can you explain the Jewish calendar?</a>
                   </h4>
                 </div>
                 <div id="collapse5" class="panel-collapse collapse">
-                  <div class="answer" class="panel-body">The Halachah says that it is forbidden to deface the Name of God in any way, or to cause any possibility thereof. Some Rabbis are of the opinion that this applies to the word "God" in any language.
-                  Many therefore do not write the Name of God where someone might throw it out. This Law has nothing to do with taking God's Name in vain; that refers only to speech.</div>
+                  <div class="answer" class="panel-body">The Jewish calendar is based on  a "lunisolar" cycle. The months are lunar and the year is adjusted to fit the solar year by adding a lunar month. A complex 19 year cycle exists to determine 
+                  when to have a leap year, a 7 year cycle to decide on the Sabbatical years, and a 50 year cycle to determine the Jubilees. The Jewish year starts on Rosh Hashanah which is the day Adam and Eve were created.</div>
                 </div>
               </div>
               <div class="panel panel-default">
                 <div class="panel-heading">
                   <h4 class="panel-title">
-                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse6">What is Kosher?</a>
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse6">Why do Jewish men wear a kippah?</a>
                   </h4>
                 </div>
                 <div id="collapse6" class="panel-collapse collapse">
-                  <div class="answer" class="panel-body">"Kosher" means properly prepared, and thus you may see the term "kosher mezuzah," or "kosher tefillin." In the specific sense, Kosher is most often used to refer to the Jewish Dietary Laws.
-                  This is a rather complex set of rules and regulations, involving both Biblical Laws and Rabbinical extensions.
-                  The Laws of Kosher involve three major aspects, labeled Determination, Preparation, and Exclusion. </div>
+                  <div class="answer" class="panel-body">Wearing a kippah is a Jewish custom to display respect for God when praying, studying Torah, saying a blessing or entering a synagogue. This practice began in biblical times when priests were 
+                  advised to cover their heads. Traditionally, Jewish males wear a kippah at all times as a sign of recognising that there is a higher entity. Some people wear kippot of an assortment of colors and complex designs.</div>
                 </div>
               </div>
               <div class="panel panel-default">
                 <div class="panel-heading">
                   <h4 class="panel-title">
-                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse7">QUESTION 7</a>
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse7">Can I convert if I’m gay, lesbian, bisexual or transgendered?</a>
                   </h4>
                 </div>
                 <div id="collapse7" class="panel-collapse collapse">
-                  <div class="panel-body">answer</div>
+                  <div class="answer" class="panel-body">Yes. Converting to Conservative Judaism, Reform, Reconstructionist, or Renewal is known to be less difficult. They are all mostly welcoming and open to converts regardless of your sexuality, although
+                  local synagogues might vary in their views. Sha’ar Zahav is a synagogue in San Francisco that is predominantly gay.</div>
                 </div>
               </div>
               <div class="panel panel-default">
                 <div class="panel-heading">
                   <h4 class="panel-title">
-                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse8">QUESTION 8</a>
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse8">Do rabbis have the same role in Judaism as priests in Christianity?</a>
                   </h4>
                 </div>
                 <div id="collapse8" class="panel-collapse collapse">
-                  <div class="panel-body">answer</div>
+                  <div class="answer" class="panel-body">No, rabbis are experts at Jewish law but they are not priests. Jewish priests are called kohein, they are responsible for performing various rites in the Temple, such as religious rituals and sacrifices.
+                  A kohein can be a rabbi but a rabbi doesn't have to be a kohein. Until recently, synagogues infrequently had rabbis. A rabbi’s position usually involves making decisions about the Jewish law.</div>
                 </div>
               </div>
               <div class="panel panel-default">
@@ -209,7 +227,7 @@
                   </h4>
                 </div>
                 <div id="collapse9" class="panel-collapse collapse">
-                  <div class="panel-body">answer</div>
+                  <div class="answer" class="panel-body">answer</div>
                 </div>
               </div>
               <div class="panel panel-default">
