@@ -130,13 +130,19 @@ div.align1{
     color: white;
     text-decoration: none;
 }
-
+#symbolimg{
+    margin-left:230px;
+    
+}
 .parag{
     text-align: center;
-    color: rgb(204, 0, 82);
-    font-style: oblique;
+    color: white;
+    font-style: normal;
     font-family: "Times New Roman", Times, serif;
     font-size: 20px;
+    margin-left: 4cm;
+    margin-right: 4cm;
+
 }
 .parag1{
     color: rgb(153, 51, 153);
