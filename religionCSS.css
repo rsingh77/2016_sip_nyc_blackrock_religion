@@ -10,6 +10,54 @@ h1.style{
 button{
     margin-left: 100px;
 }
+/* about page */
+button.center{
+  margin-left: 0px;
+  background-color: rgb(252, 180, 180);
+  border: none;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+div.width{
+  width: 1000px;
+  margin-left: 50px;
+}
+.gen{
+  background: none;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  color: blue;
+  text-align: center;
+}
+.cass{
+  background: none;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  color: rgb(7, 172, 106);
+  text-align: center;
+}
+.reva{
+  background: none;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  color: rgb(153, 0, 76);
+  text-align: center;
+}
+.aleena{
+  background: none;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  color: rgb(102, 0, 0);
+  text-align: center;
+}
+.aboutpage{
+  background-image: url("aboutbg.png");
+}
+/* end about page */
+
 a.h{
     background-color: none; /* black */
     border-radius: 5px;
@@ -99,8 +147,9 @@ div.align1{
 }
 
 .mapstyle{
-    margin-left: 30px;
-    margin-top: -10px;
+    margin-left: 5%;
+    margin-top: 10px;
+
 }
 
 .about{
@@ -132,7 +181,7 @@ div.align1{
 }
 #symbolimg{
     margin-left:230px;
-    
+
 }
 .parag{
     text-align: center;
@@ -219,7 +268,7 @@ header{
     font-size: 36px;
     color: white;
     display: block; /* Display block instead of inline */
-    /* transition: 0.3s;  Transition effects on hover (color) */ 
+    /* transition: 0.3s;  Transition effects on hover (color) */
 }
 
 /* When you mouse over the navigation links, change their color */
