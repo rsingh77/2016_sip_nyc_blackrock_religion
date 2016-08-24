@@ -144,6 +144,25 @@ Main components
   position: relative;
   z-index: 1;
 }
+p.aaa {
+  width: 1000px;
+	font-size: 18px;
+	color: white;
+	font-family: "Roboto", sans-serif;
+  margin-top: 3%;
+  margin-bottom: auto;
+  margin-right: 4%;
+  margin-left: auto;
+}
+ul.font{
+  list-style-type: disc;
+  width: 1000px;
+  font-size: 18px;
+	color: white;
+	font-family: "Roboto", sans-serif;
+  margin-left: -10%;
+  margin-top: 5%;
+}
 
 .cd-fixed-bg {
   position: relative;
@@ -195,7 +214,7 @@ p.aaa {
 	margin-bottom: auto;
 }
 .cd-fixed-bg.cd-bg-3 {
-  background-image: url("../img/cd-background-3.jpg");
+  background-color:rgba(255, 89, 0, 0.95);
 }
 .cd-fixed-bg.cd-bg-4 {
   background-image: url("../img/cd-background-4.jpg");
@@ -264,7 +283,7 @@ ul{
 div.answer {
 	color: black;
 	font-family: Roboto;
-	
+
 	margin-left: 1%;
 	margin-right: 1%;
 	font-size: 16px;

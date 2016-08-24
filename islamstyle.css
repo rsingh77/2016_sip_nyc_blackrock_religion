@@ -189,7 +189,7 @@ p.aaa {
 	margin-bottom: auto;
 }
 .cd-fixed-bg.cd-bg-3 {
-  background-image: url("../img/cd-background-3.jpg");
+  background-color: rgba(0, 204, 102, 0.95);
 }
 .cd-fixed-bg.cd-bg-4 {
   background-image: url("../img/cd-background-4.jpg");
@@ -260,7 +260,7 @@ ul{
 	color: black;
 	font-family: "Roboto", sans-serif;
 	font-size: 17px;
-    background-color: rgb(196, 238, 255);
+  background-color: rgb(196, 238, 255);
 }
 div.width{
   width: 1000px;
