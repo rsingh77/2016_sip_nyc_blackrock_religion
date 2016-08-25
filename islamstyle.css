@@ -166,20 +166,7 @@ Main components
   text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
   color: white;
 }
-p.aaa {
-	padding: 8em 0;
-    font-size: 20px;
-    font-size: 1.25rem;
-    line-height: 2;
-    font-weight: 300;
-	color: white;
-	position: absolute;
-	margin-top: 0%;
-	margin-bottom: 1%;
-	margin-left: 1%;
-	margin-right: 5%;
-	text-align: center;
-}
+
 .cd-fixed-bg.cd-bg-1 {
   background-image: url("islam3.jpg");
 }
@@ -256,11 +243,34 @@ p.aaa {
 ul{
 	list-style-type: circle;
 }
-.answer {
+ul.answer {
 	color: black;
 	font-family: "Roboto", sans-serif;
 	font-size: 17px;
   background-color: rgb(196, 238, 255);
+  margin-top: -100px;
+}
+ul.font{
+   list-style-type: disc;
+  font-size: 18px;
+	color: white;
+	font-family: "Roboto", sans-serif;
+  margin-left: 5%;
+  margin-top: 100px;
+  margin-bottom: -50px;
+}
+p.aaa {
+    width: 1000px;
+  	font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    font-style: italic;
+  	color: white;
+  	position: absolute;
+  	top: 8%;
+    margin-bottom: 50%;
+  	left: 13%;
+  	right: 15%;
+  	text-align: center;
 }
 div.width{
   width: 1000px;
@@ -299,4 +309,8 @@ div.align1{
     margin-left: 20px;
     color: white;
     text-decoration: none;
+}
+h1.center{
+    margin-top: 100px;
+    background-color: rgba(0,0,0, 0.15);
 }
