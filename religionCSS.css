@@ -11,6 +11,15 @@ button{
     margin-left: 100px;
 }
 /* about page */
+.pull-right .dropdown-menu:after {
+    left: auto;
+    right: 13px;
+}
+.pull-right .dropdown-menu {
+    left: auto;
+    right: 0;
+}
+
 button.center{
   margin-left: 0px;
   background-color: rgb(252, 180, 180);
@@ -31,6 +40,8 @@ div.width{
   font-size: 20px;
   color: blue;
   text-align: center;
+  width: 500px;
+  left:0;
 }
 .cass{
   background: none;
@@ -53,8 +64,8 @@ div.width{
   color: rgb(102, 0, 0);
   text-align: center;
 }
-.aboutpage{
-  background-image: url("aboutbg.png");
+body.graybg{
+  background-image: url("pic11.png");
 }
 /* end about page */
 
@@ -199,6 +210,16 @@ div.align1{
     text-align: center;
     font-size: 17px;
     font-family: "Verdana", Times, serif;
+}
+.parag2{
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.1);
+  color: white;
+  font-style: normal;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  margin-left: 4cm;
+  margin-right: 4cm;
 }
 .heading{
     text-align: center;

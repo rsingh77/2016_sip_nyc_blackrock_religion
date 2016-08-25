@@ -70,6 +70,7 @@ ul.font{
 	font-family: "Futura", sans-serif;
   margin-left: -100px;
   margin-top: 30px;
+  margin-bottom: -100px;
   text-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
 }
 ul.font2{
