@@ -35,21 +35,20 @@
 
 		<div class="cd-scrolling-bg cd-color-2">
 			<div class="cd-container">
-            <p class="aaa">Judaism originated in the Middle East nearly 4,000 years ago. Judaism is founded on the covenant God made with Abraham and the Jewish people.
-            Abraham, Isaac and Jacob, commonly known as the Patriarchs, are the ancestors of Judaism. The three main branches of Judaism are Orthodox, Conservative, and Reform.
-            Today, roughly 14 million people practice Judaism.</p>
+            <p class="aaa">Buddhism is a religion based on the teachings of Siddhartha Gautama, or the 'Buddha'. Buddha attained enlightenment and assumed the title Lord Buddha.
+							It teaches numerous beliefs, and practices regarding self-realization and attuning to the will of the universe. Buddhism is practiced by approximately 300 million people today.
+							 Buddhism is practiced mostly in China, Thailand, Vietnam, Myanmar, Sri Lanka, South Korea, Taiwan, Cambodia, Japan and India.</p>
 				<ul class="font">
-					<li>Similar beliefs to Judaism - coming of Messiah</li>
-					<li>Appeal to poor people</li>
-					<li>Jesus of Nazareth was born Jewish - he preached in Israel: a moral code of love, charity, and humility</li>
-					<li>Put to death in AD 30: he was seen as an agitator to rich people and to the government</li>
-					<li>Resurrected on the 3rd day</li>
-					<li>This made him known as the Son of God: belief helped spread religion throughout the Roman Empire and in Jewish communities in the Middle East</li>
-					<li>By 4th century AD 10% of Roman Empire was a convert</li>
-					<li>Slave, dispossessed farmers, and impoverished city dwellers found hope in this religion</li>
-					<li>Different denominations include Catholic Christians, Methodists, Presbyterian, Southern Baptists, and Lutheran</li>
-					<li>The Ten Commandments are the obligations Christians must fulfill in order to get into heaven and receive eternal life</li>
-					<li>Prayer is the act of communicating with God</li>
+					<li>Buddhism is founded in northeastern India.</li>
+					<li>Prince Siddharta Gautama abandoned his family's wealthy lifestyle in search of the true way to end suffering. In his quest, he found that the Middle Way was the path to awareness, enlightenment, and peace.</li>
+					<li>Meditation is a key practice in Buddhism to understand the mind in order to achieve enlightenment.</li>
+					<li>Chanting is a common practice in Buddhist communities.</li>
+					<li>Originating in India, where writing was rare, chanting enabled important texts to be passed from person to person.</li>
+					<li>The ritual of chanting was eventually found to be a useful way to focus the mind, and remember and internalize key Buddhist ideas.</li>
+					<li>Three types of structures are associated with the religious architecture of early Buddhism: monasteries (viharas), places to venerate relics (stupas), and shrines or prayer halls.</li>
+					<li>The goal of Buddhism is to reach Nirvana, which means cessation of passion, aggression and ignorance.</li>
+					<li>The basic doctrines of early Buddhism is the “four noble truths”.</li>
+					<li>Buddhism is divided into two main schools, the Theravada and the Mahayana. The Vajrayana is another school predominant in Tibet and Japan.</li>
 				</ul>
 			</div> <!-- cd-container -->
 		</div> <!-- cd-scrolling-bg -->
@@ -74,6 +73,8 @@
 		  <img class="mySlides" src="bpic2.jpg" style="width:100%">
 		  <img class="mySlides" src="bpic3.jpg" style="width:100%">
 		  <img class="mySlides" src="bpic4.jpg" style="width:100%">
+			<img class="mySlides" src="bpic8.jpg" style="width:100%">
+			<img class="mySlides" src="bpic9.jpg" style="width:100%">
 
 		  <div class="w3-center w3-section w3-large w3-text-white w3-display-bottomleft" style="width:100%">
 			<div class="w3-left w3-padding-left w3-hover-text-khaki" onclick="plusDivs(-1)">&#10094;</div>
@@ -82,44 +83,49 @@
 			<span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
 			<span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
 			<span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(4)"></span>
+			<span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(5)"></span>
+			<span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(6)"></span>
 		  </div>
 		</div>
 	  </div>
 
     <div id="caption">Caption Text</div>
-    
+
     <script>
      var captions = ["The Great Mosque of Xi'an is one of the largest Islamic places of worship in Xi'an, Shaanxi province, China. It was founded in 742 during the Tang dynasty, however it was constructed mostly during the Ming dynasty. The mosque can be divided into 4 courtyards and occupies an area of over 12,000 square meters."
 		,"Kurjey Lhakang is located in the Bumthang valley in Bhutan. Sendhu Raja, who was the king of Bumthang during the 8th century fell ill. He turned to Guru Rinpoche hoping he will find a cure. Upon discovering that the local deities were responsible, Rinpoche chased them into a cave.  There is a tall cypress tree near the monastery that is believed to have sprouted from the walking stick of Guru Rinpoche."
 		,"Pha That Luang is a gold-covered large Buddhist stupa in the centre of Vientiane, Laos. It was build around the 3rd century but has gone through many reconstructions due to foreign invasions in the area. It is believed to have originally been a Hindu temple. The stupa is a very important national monument in Laos."
 		,"Kōtoku-in is a Buddhist temple of the Jōdo-shū sect in Kanagawa Prefecture, Japan. It is well known for its monumental outdoor bronze statue of Amida Buddha. The statue was build around 1252. The bronze statue took the place of a wooden Buddha which was damaged during a storm in 1248.",
-        ];
-     var slideIndex = 1;
-		showDivs(slideIndex);
-		function plusDivs(n) {
-		  showDivs(slideIndex += n);
-		}
-    function currentDiv(n) {
-      showDivs(slideIndex = n);
-    }
-    function showDivs(n) {
-      var i;
-      var x = document.getElementsByClassName("mySlides");
-      var dots = document.getElementsByClassName("demo");
-      if (n > x.length) {slideIndex = 1}
-      if (n < 1) {slideIndex = x.length}
-      for (i = 0; i < x.length; i++) {
-         x[i].style.display = "none";
-      }
-      for (i = 0; i < dots.length; i++) {
-         dots[i].className = dots[i].className.replace(" w3-white", "");
-      }
-      x[slideIndex-1].style.display = "block";
-      dots[slideIndex-1].className += " w3-white";
-        var caption = document.getElementById("caption");
-        caption.innerHTML = captions[slideIndex-1];
-        };
-        
+    ,"Haeinsa is a head temple of the Jogye Order of Korean Buddhism in the Gaya Mountains, South Gyeongsang Province South Korea. Haeinsa is well known for being the home of the Tripitaka Koreana, the whole of the Buddhist Scriptures engraved onto 81,350 wooden blocks. Originally it was build in 802, but it was rebuild in the 19th century after a fire burned it down.",
+    ,"Wat Arun is a Buddhist temple in Bangkok Yai district of Bangkok, Thailand, on the Thonburi west bank of the Chao Phraya River. The temple is named after the Hindu god Aruna. It is famous for the first light of the morning reflecting off the surface of the temple with pearly iridescence. The main feature of Wat Arun is its central tower which is encrusted with colourful porcelain.",
+	];
+				var slideIndex = 1;
+				showDivs(slideIndex);
+				function plusDivs(n) {
+					showDivs(slideIndex += n);
+				}
+				function currentDiv(n) {
+					showDivs(slideIndex = n);
+				}
+				function showDivs(n) {
+					var i;
+					var x = document.getElementsByClassName("mySlides");
+					var dots = document.getElementsByClassName("demo");
+					if (n > x.length) {slideIndex = 1}
+					if (n < 1) {slideIndex = x.length}
+					for (i = 0; i < x.length; i++) {
+					 x[i].style.display = "none";
+					}
+					for (i = 0; i < dots.length; i++) {
+					 dots[i].className = dots[i].className.replace(" w3-white", "");
+					}
+					x[slideIndex-1].style.display = "block";
+					dots[slideIndex-1].className += " w3-white";
+
+					var caption = document.getElementById("caption");
+					caption.innerHTML = captions[slideIndex-1];
+					};
+
     </script>
     </div>
     </div> <!-- cd-fixed-bg -->
@@ -127,8 +133,8 @@
     <div class="cd-scrolling-bg cd-color-3">
       <div class="cd-container">
          <div>
-            <h2 class = "cooltitle">BUDDHISM <strong>FAQ</strong></h2>
-            <p>Stuff to know.</p>
+            <h2 class="color">BUDDHISM <strong>FAQ</strong></h2>
+            <p class="color"> Stuff to know.</p>
             <div class="panel-group" id="accordion">
               <div class="panel panel-default">
                 <div class="panel-heading">
@@ -194,7 +200,7 @@
                   </h4>
                 </div>
                 <div id="collapse6" class="panel-collapse collapse">
-                  <div class="answer" class="panel-body">No, not all Buddhists are vegetarian. The Buddha himself was not vegetarian nor did he advise his disciples to avoid consuming meat. Theravada Buddhists do not believe in killing animals 
+                  <div class="answer" class="panel-body">No, not all Buddhists are vegetarian. The Buddha himself was not vegetarian nor did he advise his disciples to avoid consuming meat. Theravada Buddhists do not believe in killing animals
                   themselves but allow the individual to choose if they want to be vegetarian. Vajrayana Buddhism encourage vegetarianism but does not consider it mandatory.  Mahayana Buddhists are commonly vegetarian.</div>
                 </div>
               </div>
@@ -233,7 +239,7 @@
                   of weather and for the enjoyment of seclusion.” During the time of the Buddha, India was covered in forests. He mentioned the “'foot of a tree” as the basic shelter for bhikkhus. Eventually monasteries were built and many adapted to a more settled lifestyle. Today many monks live in village monasteries. </div>
                 </div>
               </div>
-     
+
             </div>
           </div>
       </div> <!-- cd-container -->
@@ -243,17 +249,15 @@
 			<div class="cd-container">
 			<h2 class="resources">MORE RESOURCES</h2>
 			<ul class="font2">
-				<li>https://buddhismnow.com/faq/</li>
-				<li>http://www.buddhanet.net/e-learning/buddhistworld/faqmonks.htm</li>
-				<li></li>
-				<li></li>
-				<li></li>
-				<li></li>
-				<li></li>
-				<li></li>
-				<li></li>
-				<li></li>
-				<li></li>
+				<li>General Info: http://www.commisceo-global.com/blog/a-brief-introduction-to-buddhism</li>
+				<li>General Info: https://www.khanacademy.org/partner-content/asian-art-museum/aam-buddhism-topic/buddhism/a/introduction-to-buddhism</li>
+				<li>General Info: http://aumamen.com/topic/buddhism-interesting-facts</li>
+				<li>More FAQs: https://buddhismnow.com/faq/</li>
+				<li>More FAQs: http://www.buddhanet.net/e-learning/buddhistworld/faqmonks.htm</li>
+				<li>Buddhist Architecture: https://www.sscnet.ucla.edu/southasia/Culture/Archit/BudhArch.html</li>
+				<li>Buddhist Art Around the World: http://www.newworldencyclopedia.org/entry/Buddhist_Art</li>
+				<li>Buddhist Holidays: http://www.religionfacts.com/buddhism/holidays</li>
+				<li>Basic Beliefs: http://www.religionfacts.com/buddhism/beliefs</li>
 			</ul>
 			</div>
 	  </div> <!-- cd-fixed-bg -->
