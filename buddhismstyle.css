@@ -53,12 +53,13 @@ p.aaa {
   width: 1000px;
   font-style: italic;
   width: 1100px;
-	font-size: 18px;
+	font-size: 20px;
 	color: black;
-	font-family: "Roboto", sans-serif;
+	font-family: "Futura", sans-serif;
 	text-align: center;
   margin-left: -23%;
   margin-top: -10%;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
 
 }
 ul.font{
@@ -66,9 +67,10 @@ ul.font{
   width: 1000px;
   font-size: 18px;
 	color: black;
-	font-family: "Roboto", sans-serif;
+	font-family: "Futura", sans-serif;
   margin-left: -100px;
   margin-top: 30px;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
 }
 ul.font2{
    list-style-type: circle;
@@ -87,9 +89,9 @@ div.center{
 }
 
 .answer{
-  font-size: 17px;
+  font-size: 16px;
   color: black;
-  font-family: "Roboto", sans-serif;
+  font-family: "Geneva", sans-serif;
   background-color: rgb(255, 255, 153);
 }
 div.margin{

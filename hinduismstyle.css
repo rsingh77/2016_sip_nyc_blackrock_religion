@@ -199,21 +199,24 @@ Main components
 p.aaa {
   width: 1000px;
   font-style: italic;
-	font-size: 18px;
+  font-style: bold;
+	font-size: 20px;
 	color: white;
-	font-family: "Roboto", sans-serif;
+	font-family: "Futura", sans-serif;
 	text-align: center;
   margin-left: -100px;
   margin-top: -70px;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
 }
 ul.font{
   width: 1000px;
   font-size: 18px;
 	color: white;
-	font-family: "Roboto", sans-serif;
+	font-family: "Futura", sans-serif;
   margin-left: -40px;
   margin-bottom: -50px;
   margin-top: 40px;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
 }
 .cd-fixed-bg.cd-bg-1 {
   background-image: url("durga.jpg");
@@ -224,7 +227,7 @@ ul.font{
 	margin-bottom: auto;
 }
 .cd-fixed-bg.cd-bg-3 {
-  background-image: url("../img/cd-background-3.jpg");
+  background-color: rgba(255, 89, 0, 0.95);
 }
 .cd-fixed-bg.cd-bg-4 {
   background-image: url("../img/cd-background-4.jpg");
@@ -261,7 +264,11 @@ ul.font{
   color: white;
 }
 .cd-scrolling-bg.cd-color-3 {
-  background-color: rgba(255, 89, 0, 0.95);
+background-image: url("h_radhakrishna.jpg");
+min-height: 100%;
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center center;
   color: white;
 }
 
@@ -290,4 +297,12 @@ ul{
 }
 div.answer {
 	color: black;
-	font-family: Roboto}
+	font-family: Geneva;
+  font-size: 16px;
+  margin-left: 1%;
+  margin right: 1%;
+}
+h1.center{
+    margin-top: 20px;
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.99);
+}
