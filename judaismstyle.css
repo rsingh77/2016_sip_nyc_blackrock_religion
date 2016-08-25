@@ -98,6 +98,16 @@ div.width{
     color: white;
     text-decoration: none;
 }
+ul.font2{
+   list-style-type: circle;
+   font-weight: 100;
+  width: 1000px;
+  font-size: 18px;
+	color: white;
+	font-family: "Roboto", sans-serif;
+  margin-left: 300px;
+  padding: 150px 0 0;
+}
 /* --------------------------------
 Modules - reusable parts of our design
 -------------------------------- */
@@ -236,18 +246,25 @@ Main components
   color: white;
 }
 p.aaa {
-	padding: 8em 0;
-    font-size: 20px;
-    font-size: 1.25rem;
-    line-height: 2;
-    font-weight: 300;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.9);
+  font-style: italic;
+  width: 1100px;
+	font-size: 18px;
 	color: white;
-	position: absolute;
-	top: 0%;
-	bottom: auto;
-	left: 15%;
-	right: 15%;
+	font-family: "Roboto", sans-serif;
 	text-align: center;
+  margin-left: -160px;
+  margin-top: -75px;
+}
+ul.font{
+   list-style-type: disc;
+  width: 1000px;
+  font-size: 18px;
+	color: white;
+	font-family: "Roboto", sans-serif;
+  margin-left: -5px;
+  margin-top: 70px;
+  margin-bottom: -50px;
 }
 .cd-fixed-bg.cd-bg-1 {
   background-image: url("jpic6.jpg");
@@ -305,4 +322,3 @@ p.aaa {
     font-weight: 300;
   }
 }
-
